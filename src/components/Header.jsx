@@ -19,24 +19,25 @@ export const Header = () => {
             <nav className="header__nav">
               <ul className="header__list">
                 <li className="header__item">
-                  <a href="#!" className="header__link">
-                    Home
-                  </a>
+                  <a href="#!" className="header__link">Про нас</a>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">
-                    About
-                  </a>
+                  <a href="#!" className="header__link">Новини</a>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">
-                    Settings
-                  </a>
+                  <a href="#!" className="header__link">Абітурієнту</a>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">
-                    Exit
-                  </a>
+                  <a href="#!" className="header__link">Навчальна діяльність</a>
+                </li>
+                <li className="header__item">
+                  <a href="#!" className="header__link">Ноуково-методична робота</a>
+                </li>
+                <li className="header__item">
+                  <a href="#!" className="header__link">Виховна робота</a>
+                </li>
+                <li className="header__item">
+                  <a href="#!" className="header__link">Профорієнтація</a>
                 </li>
               </ul>
             </nav>
@@ -45,7 +46,10 @@ export const Header = () => {
       </header>
       <main className="main">
         <section className="intro">
-            
+            <div className="wraper">
+                <h1 className="intro__title">ДНІПРОВСЬКИЙ ЦЕНТР ПРОФЕСІЙНО-ТЕХНІЧНОЇ ОСВІТИ ТУРИСТИЧНОГО СЕРВІСУ</h1>
+                <p className="intro__subtitle">Державний професійно-технічний навчальний заклад</p>
+            </div>
         </section>
       </main>
     </>
