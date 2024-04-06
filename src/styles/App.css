@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #102746;
+}
+
+.header {
+  /* background-color: gray; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header__logo {
+
+}
+
+.header__logo-link {
+
+}
+
+.header__logo-image {
+
+}
+
+.header__nav {
+
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__item {
+  margin-right: 82px;
+  list-style-type: none;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+
+}
+
+.header__link {
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  text-decoration: none;
+
+}
+.header__link:hover, .header__link:focus, .header__link:active {
+  opacity: 0.75;
+}
+
+.main {
+  
+}
+
+.intro {
+  min-height: 100vh;
+  background: url('http://centr-tur.com/wp-content/uploads/2017/12/cropped-21.png') no-repeat center;
+  background-size: cover;
+  
+}
