@@ -31,7 +31,7 @@ export const Header = () => {
                   <a href="#!" className="header__link">Навчальна діяльність</a>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">Ноуково-методична робота</a>
+                  <a href="#!" className="header__link">Науково-методична робота</a>
                 </li>
                 <li className="header__item">
                   <a href="#!" className="header__link">Виховна робота</a>
