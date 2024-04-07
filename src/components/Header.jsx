@@ -1,10 +1,25 @@
-import React from "react";
 import "../styles/App.css";
+import React, { useState, useEffect } from 'react';
 
 export const Header = () => {
-  return (
+  
+    const [isActive, setIsActive] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollY = window.scrollY;
+        setIsActive(scrollY > 50); // Update isActive based on scroll position
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      // Cleanup function to remove event listener on unmount
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
+    return (
     <>
-      <header className="header">
+      <header className={isActive ? 'header header_active' : 'header'}>
         <div className="wrapper">
           <div className="header__wrapper">
             <div className="header__logo">
