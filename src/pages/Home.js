@@ -1,15 +1,18 @@
 import '../styles/App.css';
 import {Header} from '../components/Header'
-import {News} from '../components/News'
+import {MainInfo} from '../components/MainInfo'
 import {Places} from '../components/Places'
 import {Achievement} from '../components/Achievement'
+import {News} from '../components/News'
+
 function App() {
   return (
     <div className="App">
       <Header/>
-      <News/>
+      <MainInfo/>
       <Places/>
       <Achievement/>
+      <News/>
     </div>
   );
 }

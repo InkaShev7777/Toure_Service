@@ -1,71 +1,168 @@
 import React from "react";
-import "../styles/App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 export const News = () => {
   return (
     <>
-      <section className="benefits">
-        <div className="benefits__wrap">
-          <h2 className="benefits__title">ГОЛОВНЕ</h2>
-          <div className="benefits__cards">
-            <div className="benefits__card">
-              <div className="benefits__card-pic">
-                <FontAwesomeIcon
-                  className="benefits__card-thumb"
-                  icon={faBriefcase}
+      <section className="news">
+        <div className="wrapper-full">
+          <h2 className="news__title section-title">
+            Новини навчального закладу
+          </h2>
+          <div className="news__cards">
+            <div className="news__card">
+              <div className="news__card-pic">
+                <img
+                  className="news__card-thumb"
+                  src="http://centr-tur.com/wp-content/uploads/2023/12/photo_2023-12-14_12-53-45.jpg"
+                  alt="img"
                 />
+                <div className="news__card-stats">
+                  <h3 className="news__card-title">
+                    130 річниці Миколи Хвильового
+                  </h3>
+                  <div className="news__card-date">
+                    <span className="news__card-date-value">14.12.2023</span>
+                  </div>
+                </div>
               </div>
-              <h3 className="benefits__card-title">Професії</h3>
-              <p className="benefits__card-desc">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
-                текстов на латинице с начала XVI века. В то время некий
-                безымянный печатник создал большую коллекцию размеров
+              <p className="news__card-desc">
+                З нагоди 130 річниці від дня народження Миколи Хвильового –
+                українського прозаїка, поета, публіциста, політичного діяча,
+                одного з основоположників пореволюційної української прози з
+                13.12.2023 по 16.12.2023 року у Центрі проводиться «День
+                письменника».
               </p>
-              <a href="#!" className="benefits__card-more">
-                ДЕТАЛЬНІШЕ
-              </a>
+              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
-            <div className="benefits__card">
-              <div className="benefits__card-pic">
-                <FontAwesomeIcon
-                  className="benefits__card-thumb"
-                  icon={faUser}
+
+            <div className="news__card">
+              <div className="news__card-pic">
+                <img
+                  className="news__card-thumb"
+                  src="http://centr-tur.com/wp-content/uploads/2023/12/photo_2023-12-14_12-53-45.jpg"
+                  alt="img"
                 />
+                <div className="news__card-stats">
+                  <h3 className="news__card-title">
+                    130 річниці Миколи Хвильового
+                  </h3>
+                  <div className="news__card-date">
+                    <span className="news__card-date-value">14.12.2023</span>
+                  </div>
+                </div>
               </div>
-              <h3 className="benefits__card-title">Абітурієнту</h3>
-              <p className="benefits__card-desc">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
-                текстов на латинице с начала XVI века. В то время некий
-                безымянный печатник создал большую коллекцию размеров
+              <p className="news__card-desc">
+                З нагоди 130 річниці від дня народження Миколи Хвильового –
+                українського прозаїка, поета, публіциста, політичного діяча,
+                одного з основоположників пореволюційної української прози з
+                13.12.2023 по 16.12.2023 року у Центрі проводиться «День
+                письменника».
               </p>
-              <a href="#!" className="benefits__card-more">
-                ДЕТАЛЬНІШЕ
-              </a>
+              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
-            <div className="benefits__card">
-              <div className="benefits__card-pic">
-                <FontAwesomeIcon
-                  className="benefits__card-thumb"
-                  icon={faGraduationCap}
+
+            <div className="news__card">
+              <div className="news__card-pic">
+                <img
+                  className="news__card-thumb"
+                  src="http://centr-tur.com/wp-content/uploads/2023/12/photo_2023-12-14_12-53-45.jpg"
+                  alt="img"
                 />
+                <div className="news__card-stats">
+                  <h3 className="news__card-title">
+                    130 річниці Миколи Хвильового
+                  </h3>
+                  <div className="news__card-date">
+                    <span className="news__card-date-value">14.12.2023</span>
+                  </div>
+                </div>
               </div>
-              <h3 className="benefits__card-title">Професійна підготовка</h3>
-              <p className="benefits__card-desc">
-                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
-                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
-                текстов на латинице с начала XVI века. В то время некий
-                безымянный печатник создал большую коллекцию размеров
+              <p className="news__card-desc">
+                З нагоди 130 річниці від дня народження Миколи Хвильового –
+                українського прозаїка, поета, публіциста, політичного діяча,
+                одного з основоположників пореволюційної української прози з
+                13.12.2023 по 16.12.2023 року у Центрі проводиться «День
+                письменника».
               </p>
-              <a href="#!" className="benefits__card-more">
-                ДЕТАЛЬНІШЕ
-              </a>
+              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
+            </div>
+
+            <div className="news__card">
+              <div className="news__card-pic">
+                <img
+                  className="news__card-thumb"
+                  src="http://centr-tur.com/wp-content/uploads/2023/12/photo_2023-12-14_12-53-45.jpg"
+                  alt="img"
+                />
+                <div className="news__card-stats">
+                  <h3 className="news__card-title">
+                    130 річниці Миколи Хвильового
+                  </h3>
+                  <div className="news__card-date">
+                    <span className="news__card-date-value">14.12.2023</span>
+                  </div>
+                </div>
+              </div>
+              <p className="news__card-desc">
+                З нагоди 130 річниці від дня народження Миколи Хвильового –
+                українського прозаїка, поета, публіциста, політичного діяча,
+                одного з основоположників пореволюційної української прози з
+                13.12.2023 по 16.12.2023 року у Центрі проводиться «День
+                письменника».
+              </p>
+              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
+            </div>
+
+            <div className="news__card">
+              <div className="news__card-pic">
+                <img
+                  className="news__card-thumb"
+                  src="http://centr-tur.com/wp-content/uploads/2023/04/IMG_5584-1.jpeg"
+                  alt="img"
+                />
+                <div className="news__card-stats">
+                  <h3 className="news__card-title">
+                    130 річниці Миколи Хвильового
+                  </h3>
+                  <div className="news__card-date">
+                    <span className="news__card-date-value">14.12.2023</span>
+                  </div>
+                </div>
+              </div>
+              <p className="news__card-desc">
+                З нагоди 130 річниці від дня народження Миколи Хвильового –
+                українського прозаїка, поета, публіциста, політичного діяча,
+                одного з основоположників пореволюційної української прози з
+                13.12.2023 по 16.12.2023 року у Центрі проводиться «День
+                письменника».
+              </p>
+              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
+            </div>
+
+            <div className="news__card">
+              <div className="news__card-pic">
+                <img
+                  className="news__card-thumb"
+                  src="http://centr-tur.com/wp-content/uploads/2023/12/photo_2023-12-14_12-53-16.jpg"
+                  alt="img"
+                />
+                <div className="news__card-stats">
+                  <h3 className="news__card-title">
+                    130 річниці Миколи Хвильового
+                  </h3>
+                  <div className="news__card-date">
+                    <span className="news__card-date-value">14.12.2023</span>
+                  </div>
+                </div>
+              </div>
+              <p className="news__card-desc">
+                З нагоди 130 річниці від дня народження Миколи Хвильового –
+                українського прозаїка, поета, публіциста, політичного діяча,
+                одного з основоположників пореволюційної української прози з
+                13.12.2023 по 16.12.2023 року у Центрі проводиться «День
+                письменника».
+              </p>
+              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
           </div>
         </div>
