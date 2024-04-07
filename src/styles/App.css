@@ -325,3 +325,66 @@ body {
   height: 100%;
   z-index: 4;
 }
+
+/* Achivement */
+
+.achivements {
+  margin-bottom: 139px;
+
+}
+
+.achivements__achievement {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 0 108px;
+  align-items: center;
+}
+
+.achievement {
+
+}
+
+.achivements__achievement {
+  margin-bottom: 77px;
+}
+
+.achievemt__pic {
+
+}
+
+.achivement__thumb {
+  max-width: 445px;
+  max-height: 340px;
+}
+
+.achivement__info {
+  padding-left: 47px;
+
+}
+
+.achivement__title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+  margin-bottom: 85px;
+}
+
+.achivement__desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.achivement__more {
+  font-size: 16px;
+  color: #006dfe;
+  text-decoration: none;
+  background: url(../resousces/arrow-right-long-solid\ \(1\).svg) no-repeat right center;
+  transition: .2s all;
+  padding-right: 29px;
+}
+
+.achivement__more:hover {
+  opacity: .65;
+}
+
