@@ -43,7 +43,7 @@ export const Achievement = () => {
                 ДЕТАЛЬНІШЕ
               </a>
             </div>
-            <div className="achievemt__pic">
+            <div className="achievemt__pic achievemt__pic_mob-first">
               <img
                 src="http://centr-tur.com/uploads/posts/2015-08/1441007982_npc.jpg"
                 alt="some img"
