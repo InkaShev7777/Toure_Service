@@ -4,6 +4,7 @@ import {MainInfo} from '../components/MainInfo'
 import {Places} from '../components/Places'
 import {Achievement} from '../components/Achievement'
 import {News} from '../components/News'
+import {Staff} from '../components/Staff'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Places/>
       <Achievement/>
       <News/>
+      <Staff/>
     </div>
   );
 }

@@ -166,8 +166,11 @@ export const News = () => {
               <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
           </div>
-        </div>
+         </div>
+
       </section>
+
+
     </>
   );
 };

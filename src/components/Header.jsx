@@ -8,12 +8,11 @@ export const Header = () => {
     useEffect(() => {
       const handleScroll = () => {
         const scrollY = window.scrollY;
-        setIsActive(scrollY > 50); // Update isActive based on scroll position
+        setIsActive(scrollY > 50);
       };
   
       window.addEventListener('scroll', handleScroll);
   
-      // Cleanup function to remove event listener on unmount
       return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 

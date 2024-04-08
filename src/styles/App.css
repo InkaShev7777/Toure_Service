@@ -40,7 +40,7 @@ body {
   /* align-items: flex-end; */
   align-items: center;
   justify-content: space-between;
-  padding-top: 36px;
+  padding-top: 26px;
 }
 
 .header__logo {
@@ -480,4 +480,40 @@ body {
 
 .news__card-more:hover {
   background: #0e66da;
+}
+
+/*
+ ________  _________  ________  ________ ________
+|\   ____\|\___   ___\\   __  \|\  _____\\  _____\
+\ \  \___|\|___ \  \_\ \  \|\  \ \  \__/\ \  \__/
+ \ \_____  \   \ \  \ \ \   __  \ \   __\\ \   __\
+  \|____|\  \   \ \  \ \ \  \ \  \ \  \_| \ \  \_|
+    ____\_\  \   \ \__\ \ \__\ \__\ \__\   \ \__\
+   |\_________\   \|__|  \|__|\|__|\|__|    \|__|
+   \|_________|
+
+
+*/
+
+.staff {
+  width: 100%;
+
+}
+
+.staff__wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.staff__item {
+  padding-top: 56.25%;
+}
+
+.staff__element {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 75%;
 }
