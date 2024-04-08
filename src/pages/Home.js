@@ -5,6 +5,7 @@ import {Places} from '../components/Places'
 import {Achievement} from '../components/Achievement'
 import {News} from '../components/News'
 import {Staff} from '../components/Staff'
+import {Footer} from '../components/Footer'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Achievement/>
       <News/>
       <Staff/>
+      <Footer/>
     </div>
   );
 }
