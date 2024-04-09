@@ -1,5 +1,6 @@
 import "../styles/App.css";
 import React, { useState, useEffect } from 'react';
+import {Link, animateScroll as scroll} from 'react-scroll';
 
 export const Header = () => {
 
@@ -21,6 +22,16 @@ export const Header = () => {
 
     const burger = document.querySelector('.burger');
     const menuCloseItem = document.querySelector('.header__nav-close');
+
+    const linkButton = document.querySelectorAll('.header__link');
+
+    for(let i=0;i < linkButton.length;i++){
+      linkButton[i].addEventListener('click', () => {
+        if(window.innerWidth <= 1223){
+           setIsActiveBurger(false);
+        }
+      });
+    }
 
     burger.addEventListener('click', () => {
       setIsActiveBurger(!isActiveBurger);
@@ -48,10 +59,12 @@ export const Header = () => {
             <nav className={isActiveBurger ? 'header__nav header__nav_active' : 'header__nav'}>
               <ul className="header__list">
                 <li className="header__item">
-                  <a href="#!" className="header__link">Про нас</a>
+                  {/* <a href="#!" className="header__link">Про нас</a> */}
+                  <Link className="header__link" to="mainInfo" spy={true} smooth={true} offset={-270} duration={1000}>Про нас</Link>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">Новини</a>
+                  {/* <a href="#_news" className="header__link">Новини</a> */}
+                  <Link className="header__link" to="_news" spy={true} smooth={true} offset={-170} duration={1000}>Новини</Link>
                 </li>
                 <li className="header__item">
                   <a href="#!" className="header__link">Абітурієнту</a>
