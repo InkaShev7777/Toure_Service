@@ -1,6 +1,6 @@
 import "../styles/App.css";
 import React, { useState, useEffect } from 'react';
-import {Link, animateScroll as scroll} from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 export const Header = () => {
 
@@ -25,10 +25,10 @@ export const Header = () => {
 
     const linkButton = document.querySelectorAll('.header__link');
 
-    for(let i=0;i < linkButton.length;i++){
+    for (let i = 0; i < linkButton.length; i++) {
       linkButton[i].addEventListener('click', () => {
-        if(window.innerWidth <= 1223){
-           setIsActiveBurger(false);
+        if (window.innerWidth <= 1223) {
+          setIsActiveBurger(false);
         }
       });
     }
@@ -59,11 +59,38 @@ export const Header = () => {
             <nav className={isActiveBurger ? 'header__nav header__nav_active' : 'header__nav'}>
               <ul className="header__list">
                 <li className="header__item">
-                  {/* <a href="#!" className="header__link">Про нас</a> */}
                   <Link className="header__link" to="mainInfo" spy={true} smooth={true} offset={-270} duration={1000}>Про нас</Link>
+                  <ul className="submenu-header__list">
+                    <li className="submenu-header__item">
+                      <a className="submenu-header__link" href="#!">Наш колектив</a>
+                    </li>
+                    <li className="submenu-header__item">
+                      <a className="submenu-header__link" href="#!">Test2</a>
+                    </li>
+                    <li className="submenu-header__item">
+                      <a className="submenu-header__link" href="#!">Test3</a>
+
+                      <ul className="submenu-header__list">
+                        <li className="submenu-header__item">
+                          <a className="submenu-header__link" href="#!">Test2.1</a>
+                        </li>
+                        <li className="submenu-header__item">
+                          <a className="submenu-header__link" href="#!">Test2.2</a>
+                        </li>
+                        <li className="submenu-header__item">
+                          <a className="submenu-header__link" href="#!">Test2.3</a>
+                        </li>
+                        <li className="submenu-header__item">
+                          <a className="submenu-header__link" href="#!">Test2.4</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="submenu-header__item">
+                      <a className="submenu-header__link" href="#!">Test4</a>
+                    </li>
+                  </ul>
                 </li>
                 <li className="header__item">
-                  {/* <a href="#_news" className="header__link">Новини</a> */}
                   <Link className="header__link" to="_news" spy={true} smooth={true} offset={-170} duration={1000}>Новини</Link>
                 </li>
                 <li className="header__item">

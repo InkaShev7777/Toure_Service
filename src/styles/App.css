@@ -77,11 +77,12 @@ body {
 .header__item {
   margin-right: 30px;
   list-style-type: none;
+  /*  */
+  position: relative;
 }
 
 .header__item:last-child {
   margin-right: 0;
-
 }
 
 .header__link {
@@ -89,14 +90,65 @@ body {
   line-height: 24px;
   color: white;
   text-decoration: none;
-
+  /*  */
+  transition: .5s linear;
 }
 
 .header__link:hover,
 .header__link:focus,
 .header__link:active {
   opacity: 0.75;
+  cursor: pointer;
 }
+
+/* submenu */
+
+.submenu-header__list {
+  min-width: 150px;
+}
+
+.header__list .submenu-header__list {
+ position: absolute;
+ left: 0;
+ top: 100%;
+ display: none;
+ padding: 0;
+ z-index: 5;
+}
+
+.header__list .header__item:hover > .submenu-header__list {
+  display: block;
+}
+
+
+.submenu-header__link {
+  border-bottom: 1px solid 000;
+  padding: 10px 20px;
+  background: #0E1D28;
+  font-size: 16px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__list .submenu-header__list .submenu-header__list {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  list-style: none;
+}
+
+.submenu-header__item {
+  position: relative;
+}
+
+.submenu-header__list .submenu-header__item:hover > .submenu-header__list {
+  display: block;
+}
+
+/* submenu */
 
 .burger {}
 
