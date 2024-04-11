@@ -5,6 +5,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 export const MainInfo = () => {
   return (
@@ -45,9 +46,7 @@ export const MainInfo = () => {
                 текстов на латинице с начала XVI века. В то время некий
                 безымянный печатник создал большую коллекцию размеров
               </p>
-              <a href="#!" className="benefits__card-more">
-                ДЕТАЛЬНІШЕ
-              </a>
+              <Link to='/enrollee' className="benefits__card-more">ДЕТАЛЬНІШЕ</Link>
             </div>
             <div className="benefits__card">
               <div className="benefits__card-pic">

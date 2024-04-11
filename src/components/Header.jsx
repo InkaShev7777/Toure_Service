@@ -1,6 +1,7 @@
 import "../styles/App.css";
 import React, { useState, useEffect } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link as RouterLink} from "react-router-dom";
 
 export const Header = () => {
 
@@ -94,7 +95,8 @@ export const Header = () => {
                   <Link className="header__link" to="_news" spy={true} smooth={true} offset={-170} duration={1000}>Новини</Link>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">Абітурієнту</a>
+                  {/* <a href="#!" className="header__link">Абітурієнту</a> */}
+                  <RouterLink to='/enrollee' className="header__link">Абітурієнту</RouterLink>
                 </li>
                 <li className="header__item">
                   <a href="#!" className="header__link">Навчальна діяльність</a>
