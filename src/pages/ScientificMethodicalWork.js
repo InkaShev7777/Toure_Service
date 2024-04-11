@@ -1,12 +1,11 @@
 import React from 'react'
 import { Header } from '../components/Header'
 
-export const Enrollee = () => {
+export const ScientificMethodicalWork = () => {
   return (
     <div>
         <Header/>
-        <h1>Абітурієнту</h1>
+        <h1>ScientificMethodicalWork</h1> 
     </div>
   )
 }
-export default Enrollee;

@@ -13,7 +13,7 @@ export const Achievement = () => {
                 className="achivement__thumb"
               />
             </div>
-            <div className="achivement__info">
+            <div id="achivement" className="achivement__info">
               <h3 className="achivement__title">НАГОРОДИ</h3>
               <p className="achivement__desc">
                 Нагороди – це визнання досягнень та заслуг. Вони мотивують людей
@@ -28,7 +28,7 @@ export const Achievement = () => {
             </div>
           </div>
 
-          <div className="achivements__achievement achievement">
+          <div id="s_centers" className="achivements__achievement achievement">
             <div className="achivement__info">
               <h3 className="achivement__title">НАВЧАЛЬНО-ПРАКТИЧНІ ЦЕНТРИ</h3>
               <p className="achivement__desc">

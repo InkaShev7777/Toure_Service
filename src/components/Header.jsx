@@ -1,12 +1,14 @@
 import "../styles/App.css";
 import React, { useState, useEffect } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import { Link as RouterLink} from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom";
+import { faL } from "@fortawesome/free-solid-svg-icons";
 
 export const Header = () => {
 
   const [isActive, setIsActive] = useState(false);
   const [isActiveBurger, setIsActiveBurger] = useState(false);
+  const [countOfClick, setCountOfClick] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,7 +30,8 @@ export const Header = () => {
 
     for (let i = 0; i < linkButton.length; i++) {
       linkButton[i].addEventListener('click', () => {
-        if (window.innerWidth <= 1223) {
+        setCountOfClick(countOfClick + 1);
+        if (window.innerWidth <= 1338) {
           setIsActiveBurger(false);
         }
       });
@@ -63,15 +66,15 @@ export const Header = () => {
                   <Link className="header__link" to="mainInfo" spy={true} smooth={true} offset={-270} duration={1000}>Про нас</Link>
                   <ul className="submenu-header__list">
                     <li className="submenu-header__item">
-                      <a className="submenu-header__link" href="#!">Наш колектив</a>
+                      <Link to="achivement" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Нагороди</Link>
                     </li>
                     <li className="submenu-header__item">
-                      <a className="submenu-header__link" href="#!">Test2</a>
+                      <Link to="s_centers" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Навчально-практичні центри</Link>
                     </li>
                     <li className="submenu-header__item">
-                      <a className="submenu-header__link" href="#!">Test3</a>
+                      <Link to="staff" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Наш колектив</Link>
 
-                      <ul className="submenu-header__list">
+                      {/* <ul className="submenu-header__list">
                         <li className="submenu-header__item">
                           <a className="submenu-header__link" href="#!">Test2.1</a>
                         </li>
@@ -84,10 +87,7 @@ export const Header = () => {
                         <li className="submenu-header__item">
                           <a className="submenu-header__link" href="#!">Test2.4</a>
                         </li>
-                      </ul>
-                    </li>
-                    <li className="submenu-header__item">
-                      <a className="submenu-header__link" href="#!">Test4</a>
+                      </ul> */}
                     </li>
                   </ul>
                 </li>
@@ -99,16 +99,19 @@ export const Header = () => {
                   <RouterLink to='/enrollee' className="header__link">Абітурієнту</RouterLink>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">Навчальна діяльність</a>
+                  <RouterLink to='/education-activity' className="header__link">Навчальна діяльність</RouterLink>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">Науково-методична робота</a>
+                  <RouterLink to='/scientific-and-methodical-work' className="header__link">Науково-методична робота</RouterLink>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">Виховна робота</a>
+                  <RouterLink to='/educational-activities' className="header__link">Виховна робота</RouterLink>
                 </li>
                 <li className="header__item">
-                  <a href="#!" className="header__link">Профорієнтація</a>
+                  <RouterLink to='/career-guidance' className="header__link">Профорієнтація</RouterLink>
+                </li>
+                <li className="header__item">
+                  <RouterLink to='/partners' className="header__link">Партнери</RouterLink>
                 </li>
               </ul>
               <div className="header__nav-close">
