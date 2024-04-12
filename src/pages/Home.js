@@ -12,16 +12,27 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
+  const [isFirstVisit, setIsFirstVisit] = useState(null);
 
   useEffect(() => {
+    setIsFirstVisit(localStorage.getItem('isFirstVisit'));
     setTimeout(() => {
-      setIsLoading(true);
+      console.log("Is First: " + isFirstVisit);
+      if(isFirstVisit == null){
+        localStorage.setItem('isFirstVisit','false');
+        setIsFirstVisit(false);
+      }
+      else {
+        localStorage.setItem('isFirstVisit','true');
+        setIsLoading(true);
+        console.log("Is First: " + isFirstVisit);
+      }
     }, 1200);
-  }, []);
+  },[isFirstVisit]);
 
   return (
     <>
-      {isLoading ? <div className="App">
+      {localStorage.getItem('isFirstVisit') ? <div className="App">
         <Header />
         <div>
           <div id='mainInfo'>

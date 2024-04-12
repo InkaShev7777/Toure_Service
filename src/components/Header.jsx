@@ -1,7 +1,7 @@
 import "../styles/App.css";
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import { Link as RouterLink } from "react-router-dom";
+import { Link as RouterLink, useLocation } from "react-router-dom";
 import { faL } from "@fortawesome/free-solid-svg-icons";
 
 export const Header = () => {
@@ -27,7 +27,6 @@ export const Header = () => {
     const menuCloseItem = document.querySelector('.header__nav-close');
 
     const linkButton = document.querySelectorAll('.header__link');
-
     for (let i = 0; i < linkButton.length; i++) {
       linkButton[i].addEventListener('click', () => {
         setCountOfClick(countOfClick + 1);
@@ -63,7 +62,8 @@ export const Header = () => {
             <nav className={isActiveBurger ? 'header__nav header__nav_active' : 'header__nav'}>
               <ul className="header__list">
                 <li className="header__item">
-                  <Link className="header__link" to="mainInfo" spy={true} smooth={true} offset={-270} duration={1000}>Про нас</Link>
+                  {/* <Link className="header__link" to="mainInfo" spy={true} smooth={true} offset={-270} duration={1000}>Про нас</Link> */}
+                  <RouterLink className="header__link " to='/'>Про нас</RouterLink>
                   <ul className="submenu-header__list">
                     <li className="submenu-header__item">
                       <Link to="achivement" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Нагороди</Link>
@@ -72,8 +72,10 @@ export const Header = () => {
                       <Link to="s_centers" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Навчально-практичні центри</Link>
                     </li>
                     <li className="submenu-header__item">
+                      <Link className="submenu-header__link" to="_news" spy={true} smooth={true} offset={-170} duration={1000}>Новини</Link>
+                    </li>
+                    <li className="submenu-header__item">
                       <Link to="staff" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Наш колектив</Link>
-
                       {/* <ul className="submenu-header__list">
                         <li className="submenu-header__item">
                           <a className="submenu-header__link" href="#!">Test2.1</a>
@@ -90,9 +92,6 @@ export const Header = () => {
                       </ul> */}
                     </li>
                   </ul>
-                </li>
-                <li className="header__item">
-                  <Link className="header__link" to="_news" spy={true} smooth={true} offset={-170} duration={1000}>Новини</Link>
                 </li>
                 <li className="header__item">
                   {/* <a href="#!" className="header__link">Абітурієнту</a> */}
