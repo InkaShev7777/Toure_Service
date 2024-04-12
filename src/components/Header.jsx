@@ -27,14 +27,14 @@ export const Header = () => {
     const menuCloseItem = document.querySelector('.header__nav-close');
 
     const linkButton = document.querySelectorAll('.header__link');
-    for (let i = 0; i < linkButton.length; i++) {
-      linkButton[i].addEventListener('click', () => {
-        setCountOfClick(countOfClick + 1);
-        if (window.innerWidth <= 1338) {
-          setIsActiveBurger(false);
-        }
-      });
-    }
+    // for (let i = 0; i < linkButton.length; i++) {
+    //   linkButton[i].addEventListener('click', () => {
+    //     setCountOfClick(countOfClick + 1);
+    //     if (window.innerWidth <= 1338) {
+    //       setIsActiveBurger(false);
+    //     }
+    //   });
+    // }
 
     burger.addEventListener('click', () => {
       setIsActiveBurger(!isActiveBurger);
@@ -63,7 +63,7 @@ export const Header = () => {
               <ul className="header__list">
                 <li className="header__item">
                   {/* <Link className="header__link" to="mainInfo" spy={true} smooth={true} offset={-270} duration={1000}>Про нас</Link> */}
-                  <RouterLink className="header__link " to='/'>Про нас</RouterLink>
+                  <RouterLink className="header__link " to='/'>Про нас &#9662;	</RouterLink>
                   <ul className="submenu-header__list">
                     <li className="submenu-header__item">
                       <Link to="achivement" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Нагороди</Link>
