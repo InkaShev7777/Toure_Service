@@ -17,7 +17,6 @@ function App() {
   useEffect(() => {
     setIsFirstVisit(localStorage.getItem('isFirstVisit'));
     setTimeout(() => {
-      console.log("Is First: " + isFirstVisit);
       if(isFirstVisit == null){
         localStorage.setItem('isFirstVisit','false');
         setIsFirstVisit(false);
@@ -25,7 +24,6 @@ function App() {
       else {
         localStorage.setItem('isFirstVisit','true');
         setIsLoading(true);
-        console.log("Is First: " + isFirstVisit);
       }
     }, 1200);
   },[isFirstVisit]);
