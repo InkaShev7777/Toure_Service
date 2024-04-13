@@ -1,7 +1,7 @@
 import "../styles/App.css";
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import { Link as RouterLink, useLocation } from "react-router-dom";
+import { Link as RouterLink, useLocation, useNavigate } from "react-router-dom";
 import { faL } from "@fortawesome/free-solid-svg-icons";
 
 export const Header = () => {
@@ -9,6 +9,7 @@ export const Header = () => {
   const [isActive, setIsActive] = useState(false);
   const [isActiveBurger, setIsActiveBurger] = useState(false);
   const [countOfClick, setCountOfClick] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,6 +46,15 @@ export const Header = () => {
     });
   }, [isActiveBurger]);
 
+  const MoveToCategory = (categoryName) => {
+    const link = document.getElementById('link_');
+    console.log('click');
+      navigate('/');
+    link.addEventListener('click', () => {
+      
+    }); 
+  }
+
   return (
     <>
       <header className={isActive ? 'header header_active' : 'header'}>
@@ -64,6 +74,7 @@ export const Header = () => {
                 <li className="header__item">
                   {/* <Link className="header__link" to="mainInfo" spy={true} smooth={true} offset={-270} duration={1000}>Про нас</Link> */}
                   <RouterLink className="header__link " to='/'>Про нас &#9662;	</RouterLink>
+                  {/* <p id="link_" onClick={() => {MoveToCategory('test')}} className="header__link">Про нас &#9662;</p> */}
                   <ul className="submenu-header__list">
                     <li className="submenu-header__item">
                       <Link to="achivement" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Нагороди</Link>
