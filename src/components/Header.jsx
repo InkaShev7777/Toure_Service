@@ -46,13 +46,17 @@ export const Header = () => {
     });
   }, [isActiveBurger]);
 
-  const MoveToCategory = (categoryName) => {
-    const link = document.getElementById('link_');
-    console.log('click');
-      navigate('/');
-    link.addEventListener('click', () => {
-      
-    }); 
+  const MoveToCategory = (idCategory, offsetForCategory) => {
+    setTimeout(() => {
+      const element = document.getElementById(idCategory);
+      const offset = offsetForCategory;
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+    }, 1000);
   }
 
   return (
@@ -72,21 +76,23 @@ export const Header = () => {
             <nav className={isActiveBurger ? 'header__nav header__nav_active' : 'header__nav'}>
               <ul className="header__list">
                 <li className="header__item">
-                  {/* <Link className="header__link" to="mainInfo" spy={true} smooth={true} offset={-270} duration={1000}>Про нас</Link> */}
-                  <RouterLink className="header__link " to='/'>Про нас &#9662;	</RouterLink>
-                  {/* <p id="link_" onClick={() => {MoveToCategory('test')}} className="header__link">Про нас &#9662;</p> */}
+                  <RouterLink className="header__link" onClick={() => { MoveToCategory('mainInfo',340) }} to='/'>Про нас &#9662;	</RouterLink>
                   <ul className="submenu-header__list">
                     <li className="submenu-header__item">
-                      <Link to="achivement" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Нагороди</Link>
+                      <RouterLink className="submenu-header__link" onClick={() => { MoveToCategory('achivement',110) }} to='/'>Нагороди</RouterLink>
+                      {/* <Link to="achivement" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Нагороди</Link> */}
                     </li>
                     <li className="submenu-header__item">
-                      <Link to="s_centers" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Навчально-практичні центри</Link>
+                      <RouterLink className="submenu-header__link" onClick={() => { MoveToCategory('s_centers',100) }} to='/'>Навчально-практичні центри</RouterLink>
+                      {/* <Link to="s_centers" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Навчально-практичні центри</Link> */}
                     </li>
                     <li className="submenu-header__item">
-                      <Link className="submenu-header__link" to="_news" spy={true} smooth={true} offset={-170} duration={1000}>Новини</Link>
+                      <RouterLink className="submenu-header__link" onClick={() => { MoveToCategory('_news',120) }} to='/'>Новини</RouterLink>
+                      {/* <Link className="submenu-header__link" to="_news" spy={true} smooth={true} offset={-170} duration={1000}>Новини</Link> */}
                     </li>
                     <li className="submenu-header__item">
-                      <Link to="staff" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Наш колектив</Link>
+                      <RouterLink className="submenu-header__link" onClick={() => { MoveToCategory('staff',110) }} to='/'>Наш колектив</RouterLink>
+                      {/* <Link to="staff" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Наш колектив</Link> */}
                       {/* <ul className="submenu-header__list">
                         <li className="submenu-header__item">
                           <a className="submenu-header__link" href="#!">Test2.1</a>
