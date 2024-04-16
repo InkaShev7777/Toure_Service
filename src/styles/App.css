@@ -654,7 +654,6 @@ body {
 .footer__item {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .footer__logo {
@@ -673,7 +672,12 @@ body {
   justify-content: space-between;
 }
 
-.footer__menu {}
+.footer__menu-social {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 160px;
+  gap: 5px;
+}
 
 .footer__menu-title {
   font-weight: 500;
@@ -692,6 +696,11 @@ body {
   line-height: 24px;
   color: #fff;
   text-decoration: none;
+}
+
+.footer__menu-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .footer__menu-link:hover {
