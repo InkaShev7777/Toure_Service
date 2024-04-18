@@ -95,11 +95,11 @@ export const Header = () => {
                       {/* <Link to="s_centers" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Навчально-практичні центри</Link> */}
                     </li>
                     <li className="submenu-header__item">
-                      <RouterLink className="submenu-header__link" onClick={() => { MoveToCategory('_news', 120) }} to='/'>Новини</RouterLink>
+                      <RouterLink className="submenu-header__link" onClick={() => { MoveToCategory('_news', 130) }} to='/'>Новини</RouterLink>
                       {/* <Link className="submenu-header__link" to="_news" spy={true} smooth={true} offset={-170} duration={1000}>Новини</Link> */}
                     </li>
                     <li className="submenu-header__item">
-                      <RouterLink className="submenu-header__link" onClick={() => { MoveToCategory('staff', 110) }} to='/'>Наш колектив</RouterLink>
+                      <RouterLink className="submenu-header__link" onClick={() => { MoveToCategory('staff', 130) }} to='/'>Наш колектив</RouterLink>
                       {/* <Link to="staff" className="submenu-header__link" spy={true} smooth={true} offset={-110} duration={1000}>Наш колектив</Link> */}
                       {/* <ul className="submenu-header__list">
                         <li className="submenu-header__item">

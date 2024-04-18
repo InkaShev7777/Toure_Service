@@ -63,8 +63,8 @@ body {
 .header__logo-link {}
 
 .header__logo-image {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
 .header__nav {}
@@ -200,7 +200,9 @@ body {
 
 .intro {
   min-height: 100vh;
-  background: url('http://centr-tur.com/wp-content/uploads/2017/12/cropped-21.png') no-repeat center;
+  background: url('https://previews.dropbox.com/p/thumb/ACPgpC-AdeNdsH97rCUy2yi9IQktqwzpj4nx7jTlI-yQBiwu7JbQrjRxzPJjwnbeFyYShV-H5sNEtYtF84zYj6_vKiNkuXu89LHxIqKowwBpSDrDZLAf1Pia8h5P4nJLM7dFnT_NY9VeXH_3qGTxvQy1veiK-rPavaR8UsYfFTuxdQdEbn7Yb1WkrP5ME1eW7XAeU0i5YJ04328Fq7fCdrNqZdDblVo3JCBDAt0W-Qb3l-PRAaWofWuHVeZxKh0k_9F6bLerL1nahEMF3dS1Qy9iMJwLMZZZV1Gzd4RcGcoE5n6Zvk7hojPdx56ArmTN8KzPkLArAVMVAjvf6CcgGKZp8b8YsWpuhQnWTniUaINC4Q/p.jpeg') no-repeat center;
+  /* background: url('https://photos.google.com/share/AF1QipPUgxklcz2Sm556xaOYsIayufVCkhHE7u5bebHem6qobglS7UVmJ_q95WXE9bC22Q/photo/AF1QipMdfLrb1BTNJTA-30rlP3SSKnTtIy_MJVwV41Gx?key=dExsRmVaajkxSkxCQU5leHBFVWFfNlpUSV9rbjdn') no-repeat center; */
+  /* background: url('https://www.aaiedutourz.com/assets/images/home/customize.jpg') no-repeat center; */
   background-size: cover;
   padding-top: 263px;
   padding-bottom: 223px;
@@ -658,6 +660,8 @@ body {
 
 .footer__logo {
   width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 .footer__logo-pic {
@@ -688,6 +692,15 @@ body {
 
 .footer__menu-item {
   list-style: none;
+}
+
+.footer__title {
+  font-size: 18px;
+  font-weight: 500px;
+  text-align: center;
+  color: #fff;
+  width: 350px;
+  margin-left: 20px;
 }
 
 .footer__menu-link {

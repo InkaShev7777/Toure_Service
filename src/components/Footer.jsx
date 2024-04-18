@@ -10,6 +10,7 @@ export const Footer = () => {
                     <div className="footer__item">
                         <div className="footer__logo">
                             <img className='footer__logo-pic' src="http://centr-tur.com/wp-content/uploads/2018/03/cropped-Novy_logotip3.png" alt="logo" />
+                            <h3 className='footer__title'>ДНІПРОВСЬКИЙ ЦЕНТР ПРОФЕСІЙНО-ТЕХНІЧНОЇ ОСВІТИ ТУРИСТИЧНОГО СЕРВІСУ</h3>
                         </div>
                         <nav className='footer__nav'>
                             <ul className='footer__menu'>
