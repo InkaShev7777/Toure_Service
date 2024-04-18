@@ -648,7 +648,8 @@ body {
 
 .footer {
   background: #0E1D28;
-  padding: 70px 0;
+  /* padding: 70px 0; */
+  padding-top: 70px;
   margin-top: -150px;
 
 }
@@ -718,6 +719,18 @@ body {
 
 .footer__menu-link:hover {
   opacity: .75;
+}
+
+.footer__protected {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__protected-title {
+  color: rgb(175, 175, 175);
+  text-align: center;
+  padding-top: 70px;
 }
 
 /*
