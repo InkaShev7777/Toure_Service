@@ -8,6 +8,7 @@ import { ScientificMethodicalWork } from './pages/ScientificMethodicalWork';
 import { EducationalActivities } from './pages/EducationalActivities';
 import { CareerGuidance } from './pages/CareerGuidance';
 import { Partners } from './pages/Partners';
+import { MoreNews } from './pages/additionalPages/MoreNews';
 
 export const App = () => {
 
@@ -32,6 +33,8 @@ export const App = () => {
                 <Route path='/educational-activities' element={<EducationalActivities />}></Route>
                 <Route path='/career-guidance' element={<CareerGuidance />}></Route>
                 <Route path='/partners' element={<Partners />}></Route>
+
+                <Route path='/news/:id' element={<MoreNews />}></Route>
             </Routes>
         </div>
     )
