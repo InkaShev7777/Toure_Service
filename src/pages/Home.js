@@ -11,26 +11,24 @@ import React, { useState, useEffect } from 'react';
 
 
 function App() {
-  const [isLoading, setIsLoading] = useState(false);
-  const [isFirstVisit, setIsFirstVisit] = useState(null);
+  const [isFirstVisit, setIsFirstVisit] = useState(true);
 
   useEffect(() => {
-    setIsFirstVisit(localStorage.getItem('isFirstVisit'));
     setTimeout(() => {
-      if(isFirstVisit == null){
-        localStorage.setItem('isFirstVisit','false');
-        setIsFirstVisit(false);
-      }
-      else {
-        localStorage.setItem('isFirstVisit','true');
-        setIsLoading(true);
-      }
-    }, 1200);
-  },[isFirstVisit]);
+      setIsFirstVisit(false)
+      localStorage.setItem('isFirstVisit', false);
+      // localStorage.setItem('isFirstVisit', true);
+      // console.log('Before: ' + isFirstVisit);
+    }, 900);
+  }, []);
+
+  if (isFirstVisit && localStorage.getItem('isFirstVisit') != 'false') {
+    return <Preloader />
+  }
 
   return (
     <>
-      {localStorage.getItem('isFirstVisit') ? <div className="App">
+      <div className="App">
         <Header />
         <div>
           <div id='mainInfo'>
@@ -51,7 +49,6 @@ function App() {
         </div>
         <Footer />
       </div>
-  : <Preloader/>}
     </>
   );
 }

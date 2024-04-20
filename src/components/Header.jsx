@@ -33,8 +33,6 @@ export const Header = () => {
         setCountOfClick(countOfClick + 1);
         if (window.innerWidth <= 1338) {
           setIsActiveBurger(false);
-          if (countOfClick == 2) {
-          }
         }
       });
     }
@@ -51,6 +49,10 @@ export const Header = () => {
   const MoveToCategory = (idCategory, offsetForCategory) => {
     setTimeout(() => {
       const element = document.getElementById(idCategory);
+      if(element != null){
+       
+      }
+
       const offset = offsetForCategory;
       const bodyRect = document.body.getBoundingClientRect().top;
       const elementRect = element.getBoundingClientRect().top;
@@ -59,8 +61,9 @@ export const Header = () => {
 
       window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
 
+
       setIsActiveBurger(false);
-    }, 700);
+    }, 910);
   }
 
   return (

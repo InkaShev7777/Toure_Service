@@ -39,7 +39,7 @@ export const News = () => {
                 13.12.2023 по 16.12.2023 року у Центрі проводиться «День
                 письменника».
               </p>
-              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
+              <a href="" onClick={() => handleMoreNews('emb_day')} className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
 
             <div className="news__card">
@@ -65,7 +65,7 @@ export const News = () => {
                 13.12.2023 по 16.12.2023 року у Центрі проводиться «День
                 письменника».
               </p>
-              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
+              <a href="" onClick={() => handleMoreNews('volonreer')} className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
 
             <div className="news__card">
@@ -91,7 +91,7 @@ export const News = () => {
                 13.12.2023 по 16.12.2023 року у Центрі проводиться «День
                 письменника».
               </p>
-              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
+              <a href=""  onClick={() => handleMoreNews('cossacks')} className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
 
             <div className="news__card">
@@ -118,7 +118,7 @@ export const News = () => {
                 письменника». 13.12.2023 по 16.12.2023 року у Центрі проводиться «День
                 письменника».
               </p>
-              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
+              <a href="" onClick={() => handleMoreNews('constDay')} className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
 
             <div className="news__card">
@@ -144,7 +144,7 @@ export const News = () => {
                 13.12.2023 по 16.12.2023 року у Центрі проводиться «День
                 письменника».
               </p>
-              <a href="#!" className="news__card-more">ДЕТАЛЬНІШЕ</a>
+              <a href="" onClick={() => handleMoreNews('newYear')} className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
 
             <div className="news__card">
@@ -170,7 +170,7 @@ export const News = () => {
                 13.12.2023 по 16.12.2023 року у Центрі проводиться «День
                 письменника».
               </p>
-              <a href="#!" onClick={() => handleMoreNews('musei')} className="news__card-more">ДЕТАЛЬНІШЕ</a>
+              <a href="" onClick={() => handleMoreNews('musei')} className="news__card-more">ДЕТАЛЬНІШЕ</a>
             </div>
           </div>
          </div>
