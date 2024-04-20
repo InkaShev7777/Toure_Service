@@ -22,7 +22,7 @@ export const Achievement = () => {
                 громадські. Їх вручають за видатні успіхи в науці, мистецтві,
                 спорті, бізнесі, волонтерській діяльності та інших сферах.
               </p>
-              <a href="#!" className="achivement__more">
+              <a href="/achievments" className="achivement__more">
                 ДЕТАЛЬНІШЕ
               </a>
             </div>

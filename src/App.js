@@ -9,6 +9,7 @@ import { EducationalActivities } from './pages/EducationalActivities';
 import { CareerGuidance } from './pages/CareerGuidance';
 import { Partners } from './pages/Partners';
 import { MoreNews } from './pages/additionalPages/MoreNews';
+import { MoreAchievment } from './pages/additionalPages/MoreAchievment';
 
 export const App = () => {
 
@@ -35,6 +36,7 @@ export const App = () => {
                 <Route path='/partners' element={<Partners />}></Route>
 
                 <Route path='/news/:id' element={<MoreNews />}></Route>
+                <Route path='/achievments' element={<MoreAchievment/>}></Route>
             </Routes>
         </div>
     )
