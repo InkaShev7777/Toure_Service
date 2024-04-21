@@ -39,7 +39,7 @@ export const Achievement = () => {
                 Дніпровського центру професійно-технічної освіти туристичного
                 сервісу.
               </p>
-              <a href="#!" className="achivement__more">
+              <a href="/education-centers" className="achivement__more">
                 ДЕТАЛЬНІШЕ
               </a>
             </div>

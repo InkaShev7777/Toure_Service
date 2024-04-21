@@ -17,6 +17,12 @@ body {
   color: #102746;
 }
 
+table, tr, td,th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+}
+
 /*
  ___  ___  _______   ________  ________  _______   ________
 |\  \|\  \|\  ___ \ |\   __  \|\   ___ \|\  ___ \ |\   __  \
@@ -113,15 +119,15 @@ body {
 }
 
 .header__list .submenu-header__list {
- left: 0;
- top: 0;
- display: none;
- padding: 0;
- z-index: 5;
- margin-top: 23px;
+  left: 0;
+  top: 0;
+  display: none;
+  padding: 0;
+  z-index: 5;
+  margin-top: 23px;
 }
 
-.header__list .header__item:hover > .submenu-header__list {
+.header__list .header__item:hover>.submenu-header__list {
   /* block */
   display: block;
 }
@@ -136,6 +142,7 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
 .submenu-header__link:hover {
   cursor: pointer;
   /* color: #0e66da; */
@@ -157,7 +164,7 @@ body {
   list-style: none;
 }
 
-.submenu-header__list .submenu-header__item:hover > .submenu-header__list {
+.submenu-header__list .submenu-header__item:hover>.submenu-header__list {
   /* display: block; */
 }
 
@@ -531,6 +538,7 @@ body {
   display: flex;
   flex-direction: column;
   grid-column: span 2;
+  margin-bottom: 10px;
 }
 
 .news__card-pic {
@@ -811,6 +819,7 @@ body {
   height: 60%;
   margin-left: 20%;
 }
+
 /*
  _____ ______   _______   ________  ___  ________          ________  _________  ________  ________  _________
 |\   _ \  _   \|\  ___ \ |\   ___ \|\  \|\   __  \        |\   ____\|\___   ___\\   __  \|\   __  \|\___   ___\

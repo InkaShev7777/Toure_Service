@@ -10,6 +10,9 @@ import { CareerGuidance } from './pages/CareerGuidance';
 import { Partners } from './pages/Partners';
 import { MoreNews } from './pages/additionalPages/MoreNews';
 import { MoreAchievment } from './pages/additionalPages/MoreAchievment';
+import { MorePlaces } from './pages/additionalPages/MorePlaces';
+import { MoreEducationsCenters } from './pages/additionalPages/MoreEducationsCenters';
+import { MoreEducationsCenter } from './pages/additionalPages/MoreEducationsCenter';
 
 export const App = () => {
 
@@ -37,6 +40,10 @@ export const App = () => {
 
                 <Route path='/news/:id' element={<MoreNews />}></Route>
                 <Route path='/achievments' element={<MoreAchievment/>}></Route>
+                <Route path='/rooms' element={<MorePlaces/>}></Route>
+                <Route path='/education-centers' element={<MoreEducationsCenters/>}></Route>
+                <Route path='/education-centers/education-center/:id' element={<MoreEducationsCenter/>}></Route>
+                
             </Routes>
         </div>
     )

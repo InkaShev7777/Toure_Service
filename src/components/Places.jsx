@@ -9,7 +9,7 @@ export const Places = () => {
             <h2 className="places__title section-title">
               Навчальні майстерні та кабінети Центру та гуртожиток
             </h2>
-            <a href="#!" className="places__view-all">
+            <a href="/rooms" className="places__view-all">
               ДЕТАЛЬНІШЕ
             </a>
           </div>
