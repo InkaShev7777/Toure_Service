@@ -119,7 +119,7 @@ export const MoreNews = () => {
         }
     }, []);
     return (
-        <div className="benefits">
+        <div>
             <Header />
             <section className="benefits">
                 <div className="benefits__wrap">

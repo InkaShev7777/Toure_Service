@@ -13,6 +13,7 @@ import { MoreAchievment } from './pages/additionalPages/MoreAchievment';
 import { MorePlaces } from './pages/additionalPages/MorePlaces';
 import { MoreEducationsCenters } from './pages/additionalPages/MoreEducationsCenters';
 import { MoreEducationsCenter } from './pages/additionalPages/MoreEducationsCenter';
+import { MoreCareerGuidance } from './pages/additionalPages/MoreCareerGuidance';
 
 export const App = () => {
 
@@ -43,6 +44,7 @@ export const App = () => {
                 <Route path='/rooms' element={<MorePlaces/>}></Route>
                 <Route path='/education-centers' element={<MoreEducationsCenters/>}></Route>
                 <Route path='/education-centers/education-center/:id' element={<MoreEducationsCenter/>}></Route>
+                <Route path='/career-guidance/more-info/:id' element={<MoreCareerGuidance/>}></Route>
                 
             </Routes>
         </div>

@@ -55,7 +55,7 @@ export const MainInfo = () => {
                   icon={faGraduationCap}
                 />
               </div>
-              <h3 className="benefits__card-title">Професійна підготовка</h3>
+              <h3 className="benefits__card-title">Профорієнтація</h3>
               <p className="benefits__card-desc">
                 Lorem Ipsum - это текст-"рыба", часто используемый в печати и
                 вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для

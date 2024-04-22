@@ -83,15 +83,11 @@ export const MoreEducationsCenters = () => {
                 </div>
             </section>
             <div className='wrapper'>
-                <h3 className="places__title section-title">Земля – наш спільний дім</h3>
-                <p className="news__card-desc">За ініціативи НМЦ ПТО у Дніпропетровській області проводився віртуальний конкурс колективів екологічної просвіти «Земля-наш спільний дім» серед  здобувачів освіти закладів професійної (професійно-технічної) освіти області.
-                    Завдяки креативності, творчості, прагненню зберегти природу рідного краю, активній життєвій позиції, викладачка біології та екології ДПТНЗ “ДНІПРОВСЬКИЙ ЦЕНТР ПТОТС ” Іванченко І.Ю. разом з колективом “Небайдужі” стали переможцями конкурсу!!!!
-                    Вітаємо переможців та бажаємо подальших творчих успіхів !!!
-                </p>
+                <h3 className="places__title section-title">Інтерактивна карта НПЦ України</h3>
             </div>
             <div className="staff__wrapper">
                 <div className="staff__item">
-                    <iframe className='staff__element' src="https://www.youtube.com/embed/piSZY3bZb4Y?si=8XBAJo9r0v23KPuH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe className='staff__element' src="https://www.google.com/maps/d/embed?mid=1TdvcOAfyKPMI99OTJ_GIl-OV1wwpHKF7" width="640" height="480"></iframe>
                 </div>
             </div>
             <Footer />

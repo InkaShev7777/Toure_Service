@@ -51,7 +51,7 @@ table, tr, td,th {
 }
 
 .wrapper {
-  max-width: 1340px;
+  max-width: 1360px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -229,6 +229,12 @@ table, tr, td,th {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
+}
+
+.enrollee__pic {
+  max-width: 30%;
+  max-height: 20%;
+  margin-left: 10px;
 }
 
 .benefits {
@@ -462,6 +468,12 @@ table, tr, td,th {
   align-items: center;
 }
 
+.achivements__achievement-enrollee {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+}
+
 .achievement {}
 
 .achivements__achievement {
@@ -475,9 +487,13 @@ table, tr, td,th {
   max-height: 340px;
 }
 
+.achivement__thumb-enrollee {
+  max-width: 500px;
+  height: 600px;
+}
+
 .achivement__info {
   padding-left: 47px;
-
 }
 
 .achivement__title {
@@ -487,10 +503,25 @@ table, tr, td,th {
   margin-bottom: 85px;
 }
 
+.achivement__title-enrollee {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+li{
+  list-style-type:decimal;
+}
+
 .achivement__desc {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 58px;
+}
+
+.achivement__desc-enrollee {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .achivement__more {
@@ -833,7 +864,7 @@ table, tr, td,th {
 
 */
 
-@media screen and (max-width: 1338px) {
+@media screen and (max-width: 1351px) {
 
   .header__burger {
     display: block;
@@ -1008,6 +1039,11 @@ table, tr, td,th {
   }
 
   .achivement__thumb {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .achivement__thumb-enrollee {
     width: 100%;
     margin-right: 0;
   }
