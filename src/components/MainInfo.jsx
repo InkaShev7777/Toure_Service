@@ -62,7 +62,7 @@ export const MainInfo = () => {
                 текстов на латинице с начала XVI века. В то время некий
                 безымянный печатник создал большую коллекцию размеров
               </p>
-              <a href="#!" className="benefits__card-more">
+              <a href="prof-training" className="benefits__card-more">
                 ДЕТАЛЬНІШЕ
               </a>
             </div>
