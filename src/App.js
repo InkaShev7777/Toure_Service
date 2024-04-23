@@ -15,6 +15,8 @@ import { MoreEducationsCenters } from './pages/additionalPages/MoreEducationsCen
 import { MoreEducationsCenter } from './pages/additionalPages/MoreEducationsCenter';
 import { MoreCareerGuidance } from './pages/additionalPages/MoreCareerGuidance';
 import { ProfessionalTraining } from './pages/ProfessionalTraining';
+import { Profession } from './pages/Profession';
+import { MoreProfession } from './pages/additionalPages/MoreProfession';
 
 export const App = () => {
 
@@ -39,6 +41,7 @@ export const App = () => {
                 <Route path='/educational-activities' element={<EducationalActivities />}></Route>
                 <Route path='/career-guidance' element={<CareerGuidance />}></Route>
                 <Route path='/partners' element={<Partners />}></Route>
+                <Route path='/profession' element={<Profession />}></Route>
 
                 <Route path='/news/:id' element={<MoreNews />}></Route>
                 <Route path='/achievments' element={<MoreAchievment/>}></Route>
@@ -47,6 +50,8 @@ export const App = () => {
                 <Route path='/education-centers/education-center/:id' element={<MoreEducationsCenter/>}></Route>
                 <Route path='/career-guidance/more-info/:id' element={<MoreCareerGuidance/>}></Route>
                 <Route path='/prof-training' element={<ProfessionalTraining/>}></Route>
+                <Route path='/profession/about/:id' element={<MoreProfession/>}></Route>
+
                 
             </Routes>
         </div>
