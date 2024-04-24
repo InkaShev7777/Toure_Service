@@ -24,7 +24,7 @@ export const Profession = () => {
                                     <div className="news__card-pic">
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACPl3o0LKPmiVioed2OE4M2NIdogXqQyGD5d1k-YibnhYVnitP9BrKnZsAg7-YhDl8zbiJphAi_1s0BtEyra3YjhMvHXKypGn3gnd1jd9hEsQfa8VYlcT-_fc7c9MJ1FUC4x3_9ncwoq7sAKBwfO2eBn5ah5X77CpVr37jMCTspcMjorwUauKXusdyJ8fp8yc6MfBP9kA3DS_nwz8zZDAhGzghXATJHtCnadBqT9I3kqg-rT1FRIsJQs6TeRTm_QChPQz9escOgtRcY3yIs3VRyyVwH-KOE1rm7_NTeGFxtrEWHRc9UFmykaB0cCvqWjNhB2CkHgbZOrD-xT7gueKTv7/p.jpeg"
+                                            src="https://previews.dropbox.com/p/thumb/ACR_l9yy4wFr0V_f2Jd393N2uIUoE6F-KuHOlQEyU1gp6DhTMGrgmWEgl_C_QFJhmLZypba7vssDV80zE5LMEFm148roziaNsmL8GB7GgxHPHf76-eToZWA6M6N92HewM2UrsnvPCJvqgPRQPi_xSm3YABFZ7xJBzwqBBrEaVyXl9JGowlPDvs9dV663AMYqfpRORICppUQlGFRdOvB_5fqYIFTrpmfstACP4INndnwcrPX6kJxSVAoJdHspcCfck3iFzWQtALzTOxp_BRn5OCIb6d5inGGxWQTvHFdGkfj4o614nfd14RU_n-Ov15ViIC_4vLjRIrj49rEYCV1Qyic6E7yC3SHGIj9aW3wKCkg5cA/p.jpeg"
                                             alt="img"
                                         />
                                     </div>
@@ -37,7 +37,7 @@ export const Profession = () => {
                                         {/* <iframe className='news__card-thumb' src="https://www.youtube.com/embed/fSHsZ4-TAG0?si=uxziUnCtcxdzALf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACPg7yVp0ttsmX8lNsq80pIvS9rH5kwQttZJ3Z37-uQWWY61jH-HZMunh63jPykzW1-d4UIGFsKxMHPvneElUNCCPUu89fH26qylNrZEFC6R-vLe6qPQuJQc8DxvB1veHb7IsVzgj9HPjjjqVBisqwrRSg0yWzGj3PaVRkx2MpfEpoJEDEIbvOQNUdrwOuik59khG8OOC7gRLb9QyxxdCrDY6ZVcyzkzlfoSWQRkho0tYZsHIwpDllGyxz-8UeysIJYvs4IFVsaQC6FgxYaOoY3xt1tIjvvZ1GQOA5NXZlq-hxJHJUdbshXSdFlvqZHrYkJIFS1q5MTjxg9UbAMMY0TW/p.jpeg"
+                                            src="https://previews.dropbox.com/p/thumb/ACSsF4LIDF-ObV8uWMN7Hc4ySPDNH4AEBgfNtFtyV2-L7mqohvt0NYDdzbQhzBHISYVebQjXTiKou8I0BkJiXhqmOm73-zV9M9KmteSz0L4ytyHgtXItmv6aemt5523dJeieJj7DEQTzOWLYEvd6wEfl4ky7KD_fqYEtkGnfk38X-dvfv2SKd3YcTDICvFRM_HlYiDO16oQvJHw7_pewUp4DHNt-ONT9XIUmemZRbiW8t0UF19wqwAZgLq26JZ_6HG5ZtcLbmnkrO57-heBAZM_NtekWbfvzrRjSTXWrPV9zUR3MQfIEjWuW8WZOG3E4U0g6jwKH_RqvOdh7O79qxRdjoKIrmASQur9kJ7ZaM3Q7YG-bUKQATad3jf3vhpd1f-fZrQlSK-iwnUa7II-R3oVlfCp84o_S9h3ZP0zoZR15RQ/p.jpeg"
                                             alt="img"
                                         />
                                     </div>
@@ -49,7 +49,7 @@ export const Profession = () => {
                                     <div className="news__card-pic">
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACPXZdtjFXW_8091_VLkWljHFKLMAMxNTjw8rCB70xpRRKatZQN4nAi8n_yyAvWJgMaoM8Z-7NSI3v5rvUK_g9VAU3I4mtKNApOyKCO5s_q7r_wFLxyHgQ3gjDtwKvUMQwWl0StVqfTPkP-kfkHi4cnKW1VGWUk5zRbtbzDaoWQZlZw9vGsVo7Ow-r68FkOoALQSCbr3lAUyNNV0te5KwYhhwVRaQlgKLsHngbZk59VhogOKK8O0goQS-hYJT6OrsFMlpD4i1Qx7BUhj5iqb63sYWWQUMMcHNtI6rf4lshMA2kMdfg0L_QGg5lVJtF5S3ckjILcZmDEGC3b3bqtKLDMs/p.jpeg"
+                                            src="https://previews.dropbox.com/p/thumb/ACRB6ZeGMzk6zKbjY2zErH_mf2Hy0EohWpOoARWx7yokfvhHHKVfwCTsscf9nqFXJc-UaeJlDY4Iff-FHpQdm08ujHDVueIteex1PChDG1RQXo4eTUWzDdoRSESah3XgGWdVlqLTiii1C_beoDeU9iGcBD3oKnX5gLz8xZOkpFbfgHHmUv_RDnVuCjMUj9TC3Zjh1R6zlfho4UtxscLvXAKkGK6sB8zlP65dnsumIXyqs8U54irQfEwkASRRse-DySMMJGSuT4A0FCcy6j70tIVbMw0jBLSpMbKdJbvOWpZwKVmbweDsk5z2myBwh96JRZvnKCRAZnFiwbHkuCV0DJcv/p.jpeg"
                                             alt="img"
                                         />
                                     </div>
@@ -61,48 +61,36 @@ export const Profession = () => {
                                     <div className="news__card-pic">
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACOjU8Xc1uTNeKdGx2EnPcvnEYD5Zg1o79CAL_AtR1eZ3-fSuVcEh6WxolYsQX1-zlPezCon-jd5rOpfY-U_cq025wWUKaOEyNhcH5eOzlfBeD29YCZmjt-qlpsUcJPW2SPUlt2_3tKMeTXhlbPKKvK2B7iM6Dd4Is3JSku7FwaEQE3Mw3Q4ZXyZ7TIS68ybbWYqMhcZppjWPzGmKj2hosFNpX20JiJIgmevni_aj3gSgqUqfOFu1f8P92B9YsGWM67q5Ti8tDR_9MOCdbXd_ZQ35NUbF7Zn6vb2JfHNIPFJs5sYiW8XzV5DvhVj_hzJJUG_AAIVxOsr4gPNd7Kt-CAQ/p.jpeg"
-                                            alt="img"
-                                        />
-                                    </div>
-                                    <h2 className="news__card-desc">Адміністратор. Агент з організації туризму</h2>
-                                    <p className="news__card-more" onClick={() => handleOnClick('admin')} >ДЕТАЛЬНІШЕ</p>
-                                </div>
-
-                                <div className="news__card">
-                                    <div className="news__card-pic">
-                                        <img
-                                            className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACNYx7p3KjqSZabJU8Djt_YzGRt7khX1-bJ3cyFDgPBzgN94_0YJN8AIBxa_3hzdH6s2uT9g_hM1edc8Cntr9aT4Wg2NVg8XCvjBUnqk0JY31ecjyfZ-RGB3z_op71TRbcPIvoxue4KZ_EzNy6HOSFsutphDDX3FyZ_MdZ55YUPg4pssC4H2qFqt_M_iL73kXej56akl3bM_i1HQCFGND724FCGEdVFX683Jywy6Cax0XKC3eFqKxGd4stOV8XWhC0gVIeEChoJ1TxGPNToQwHUrXYfaAzl8wsssSmes8Hy539PmwN6RcnueEwHve0VpndFi8oTu1W317P_wcui59aQJ/p.jpeg"
+                                            src="https://previews.dropbox.com/p/thumb/ACRKOVb5AgTSlsLCaZ7gLe5Y9SAAGYdCMqjBMzw0Vq_byXckhoylPqIzdwiyPRjwLgt8WfjbVBer3WEcf4PyPwTaELKfWt-S76ocJ0ocJnzSpRhbP_v88M--BINTji55fR-ixFYfZwtBGs_z3LlM0Pn9_62lwbvUjwt5ANQyyv59KotRW-DnQvupm3lwM-gfDJm3NnIyNuH1vGNTc3D1Lu_7yb9BmKGLVE-vRgjORG15aFbOPQc2ZJvErs2VBO0mepxtVehjfIhjJJbBlbkzlm8P2WLB0bITs9SMbCeTz1JWk9ZPwIzrd6OOTYXSjR1DkIN9_2g0TntqEsZ1Wegb3NfTRHhVh4-KR6yt42kmp43yIg/p.jpeg"
                                             alt="img"
                                         />
                                     </div>
                                     <h2 className="news__card-desc">Флорист</h2>
-                                    <p className="news__card-more" onClick={() => handleOnClick('globe')} >ДЕТАЛЬНІШЕ</p>
+                                    <p className="news__card-more" onClick={() => handleOnClick('florist')} >ДЕТАЛЬНІШЕ</p>
                                 </div>
 
                                 <div className="news__card">
                                     <div className="news__card-pic">
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACNicg6EaGPXqqFVxxOYCQ0gscdKtuqR-Svk4wBFuE7ZkvI0mlVYVWWR78pi8R2fhv9vPTOfnjVQqGuiCdPhcrU8x7_j2T41RW0OTfbJyQi6lXWTzXtOoR0VxxkJL0IoGDG_UKrRKXJneWXqk0GkesPB2xmQHgVz-qrHX3ofLRmCoFXE1V8Bl4TCnTtd-0LagKVnz0zceeLN4CU4hTwpKb5NI520lGJisrQ8VXOE7eH-U_8uv9HkefcmZsdWwSFBIO5GxXiFkQhWwB_BvedZLsZ5LAzQ7IiJNALZKuaZ_oCBs-1cBGLjEgSZD12cibkRI3Bl7ZsNHFNSl6sHK3UZoR0l/p.jpeg"
+                                            src="https://previews.dropbox.com/p/thumb/ACM8bZ56ov3VqU5aqNtOVmtPPAlsYE2j94JtrlBFaDGbjAljaOHzbKIli6fM-FHQtxO_gBCjiWKVgb3ziSvExLocD4zd1-BrWXiwI6KU-MDwL3_fIKPkv1RvLrE0EqV0FTBgPAuLYdhoc5wqbJCSY_GY4IMRrY18UlZY1qQjv9ZXk53Egm6gePeE9j_qPsLMpMN5-N9ui086u9eu3cs7nUC42oxtHF7JSlI5j2GZUyjP9w3dFb4opP2B5JiXf5o53VUDtoYyKOnwUibE7_AFUNJ31ps_wITZd3G6gj9FzPGHvwz_I232bcBFkOqi2O_S2xdM_Rx5qkzNFlAW0bwVSIpdnxmuvZYnqB2X2r1ahvXHi8teyPMRw6YTnGKqCMnbh8E0k4eJtOBVm2_vzWiWwuFJBI87XZ2f7evRctxZ4FkqFQ/p.jpeg"
                                             alt="img"
                                         />
                                     </div>
                                     <h2 className="news__card-desc">Перукар (перукар-модельєр)</h2>
-                                    <p className="news__card-more" onClick={() => handleOnClick('globe')} >ДЕТАЛЬНІШЕ</p>
+                                    <p className="news__card-more" onClick={() => handleOnClick('hair-master')} >ДЕТАЛЬНІШЕ</p>
                                 </div>
 
                                 <div className="news__card">
                                     <div className="news__card-pic">
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACPFJQNL4eBHuUcaL3LM4X3QRCxUq0pGsQupjsouIB16Kyw2li-FzoakPMetfWLa7ejDdo1TpaSfbcUb_LJe8oKLY6WTp4AzoOlEJVYPP7hJechVWlUCnaXaDbSFU_NWHbxYzXmUCI8y18pR41JPx8n-Cmp5r5wEx5DjqCMs8VsIAspoLEDNz4461KIG8I1vBOfz4hkJIuRohTx7_RMvMOantT58exJxyqNrfn0w3Ok_rqU3pNRBd9qWH_Z8TEGFCyXRBtqwl_5BnPNw_-dfg1IyQmtih7-tltHLSpJgdA8u9VQxTuSnAXoPd4hmBcvqQAMgjdV8fAaCDcQR7-F_VkyS/p.jpeg"
+                                            src="https://previews.dropbox.com/p/thumb/ACR5WknzR7j2q2Wzq_h7B-JdA_Tz91sClf6hWeZPzVZEo3hSTdOMDmi5sLLbRZApEHLQYuqkteUNsg8fMml41KE2pV-iAKXlz3O-NSvoWlzU-RiB9teSGgLUGEfiezr0lLn9KfiG1lB1x2addMvi9yHV-erdTHyw9YeLrnyB7PDbhNNR6feg1fnJaH5YJsHlFaBFJWLHZ3gMnNPAdLtGkICs9-N1iqXtNnCGQ6kGSa5zboJyPvg1qX2FUAXDjNIN1nG57O_L7HzU6MNBU-BToAYSVaRMlkhZBbvsQe221nV7q9NRQWsZRDjWaCzMQeUz-d2y-RPP5tmUC6TzYtu2lGJ00qC-4VDKKx-VaBHmXfIXFbd7Onwn14wTJ42_DonHiW-L9Tsx4eXsRlkXiQDWwNs3ivZEXqZnCrJUtEu3GRuUvA/p.jpeg"
                                             alt="img"
                                         />
                                     </div>
                                     <h2 className="news__card-desc">Манікюрник. Педикюрник</h2>
-                                    <p className="news__card-more" onClick={() => handleOnClick('globe')} >ДЕТАЛЬНІШЕ</p>
+                                    <p className="news__card-more" onClick={() => handleOnClick('nail-master')} >ДЕТАЛЬНІШЕ</p>
                                 </div>
 
                                 <div className="news__card">
@@ -114,7 +102,19 @@ export const Profession = () => {
                                         />
                                     </div>
                                     <h2 className="news__card-desc">Квітникар. Декоратор вітрин</h2>
-                                    <p className="news__card-more" onClick={() => handleOnClick('globe')} >ДЕТАЛЬНІШЕ</p>
+                                    <p className="news__card-more" onClick={() => handleOnClick('flowers-maker')} >ДЕТАЛЬНІШЕ</p>
+                                </div>
+
+                                <div className="news__card">
+                                    <div className="news__card-pic">
+                                        <img
+                                            className="news__card-thumb"
+                                            src="https://previews.dropbox.com/p/thumb/ACQwemMcAAYhEnVFf2we8qyRX53Fqb0NtzwpwSnxfRoQtAZ0G_SGHclQ22tkwDRK1K3AXh_MyjBrt4VEgyxldIc4dL_Vzd8_mq942nzdxyBBvUdMPIhII-taCe6U6-zLWMJHjcwzuuXjywIoOJW_FBlBfWNk9jspAxqCReZBh_Z3mU6fO7Dmk6JLb3zQeQpzd4rz3jkpUH1QJbuuf6F-oWntoTzBY4YKfZ09pflZ7kcYcK8r-xGiPNqz6iL_XminDt7ysbHeT8J6O8ofOiNTnll-MTp1aX57KQCWGiZMntXBchnagfePJMgwSC9-UUeIxU8kk-vJsSi6kReGAoLBbOQlbDGZ6x1GFELqTGxa9T0OLw/p.jpeg"
+                                            alt="img"
+                                        />
+                                    </div>
+                                    <h2 className="news__card-desc">Адміністратор. Агент з організації туризму</h2>
+                                    <p className="news__card-more" onClick={() => handleOnClick('admin')} >ДЕТАЛЬНІШЕ</p>
                                 </div>
 
                             </div>

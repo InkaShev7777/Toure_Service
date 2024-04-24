@@ -17,7 +17,7 @@ export const MorePlaces = () => {
         {src: 'https://previews.dropbox.com/p/thumb/ACNjU_Afte9GSKDxe-l3hqzQnuORojRbxJglhMNiM_SVfQNgjKcGY-mPglAi96cpn1ryxQ1pE7KwWbjqQZHu7nZUiKIQ14CEp9tjJ6wSqujqawJa93ZzqrsgR5uQLKVJsQKEmVv6JcnFBu6QR0ZuQy2vs6Sag55g089AuuxgPpm8rqk7wQuIcSW81SICaiZq0HlYya3hclIRAtvm7kfXNmfQpW_OsP8V3PpQubwCp5oZ4v63v9J2Z9U7W9ZNxEGMKfunloVg-f-usFBMLr71W6pJ_TT-2k33OlQp4Rco-TGVVAHg50O9Wf4uuwTKNq4qIgezMCRIENi2qsm0fQxYyV9u3nG90SW5hThCkY2BlFD5kg/p.jpeg'},
     ];
   return (
-    <div className="benefits">
+    <div>
             <Header />
             <section className="benefits">
                 <div className="benefits__wrap">
@@ -31,7 +31,7 @@ export const MorePlaces = () => {
                     </Carousel>
                 </div>
             </section>
-            {/* <Footer /> */}
+            <Footer />
         </div>
   )
 }

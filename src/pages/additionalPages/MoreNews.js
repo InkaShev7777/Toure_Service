@@ -133,7 +133,7 @@ export const MoreNews = () => {
                     </Carousel>
                 </div>
             </section>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

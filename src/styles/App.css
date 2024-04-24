@@ -238,7 +238,7 @@ table, tr, td,th {
 }
 
 .benefits {
-  margin-bottom: 131px;
+  margin-bottom: 161px;
 }
 
 .benefits__wrap {
@@ -636,6 +636,7 @@ li{
   border-radius: 2px;
   width: 150px;
   margin: auto 0 0 0;
+  cursor: pointer;
 }
 
 .news__card-more:hover {
