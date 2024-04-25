@@ -8,7 +8,7 @@ export const MoreCareerGuidance = () => {
     const { id } = useParams();
     const [title, setTitle] = useState('');
     const [desc, setDesc] = useState();
-    const images = [{ src: 'https://previews.dropbox.com/p/thumb/ACN-DFPWVYmPq_rxLimBjUnhWKwv4Nvv36qAlPcbWj7kjiee51R7QPjAfbZioOkg-Ak_a-XPfen0rDk_m_kX2mhGQaZ5eiFUTH7AfavOU7dSV_6o5ZJUfXwFitODJgBcSpXnk1W1EFqFUFHKwzP6M_uWi1nSG8Yx6kyP4kkJV8a0NyRDhlhb8TLJADAMQZJ2pEewXPIGyF34pTV6n_JwHW28G9h-DO_sIhJ9wsmb2Vz2rSLXGDvcy0ttRaAOLlDLWMmtLYU64K9sJ37IEBw7AQw5iY-ti1pm7Jz8TwQT-EuAsWTudBOmUiun3FKklI5kROjXilNecIgiBOPKKdEW-xJE/p.jpeg' }];
+    const images = [{ src: 'https://previews.dropbox.com/p/thumb/ACSC1NgQWAr3alHGGsL-hz3eGYjqHWsLVhu324ghmT1OZUjBPNrdap-_NYnhz_ktxhEsHPeO1N82Puy4imP1w_Cchl2l1B917Iv08Ss6zm5XFybNv3UplPER5dMhNY7Mg5hrNREzlOEeNLMfT8mQ4TPUN0f9HNgT-bDPLmjAbPN7ngwYk3LyhleoJwCMQqwO8AZFxMYGTmPiwGi-Z7ULqn8ogk616ZPARya1CDjLoNCxZC4xnfdxc5zVL_yl4VuX7tsnHhlr0jq8clylLAFc05irDG78kTpg7JygyHJcQgzTHKFvhIPDiPEOQuiGjfdm1-VhY2LtlfPDvNC2DiBeV_Xk/p.jpeg' }];
 
     useEffect(() => {
         console.log(id);
@@ -101,12 +101,17 @@ export const MoreCareerGuidance = () => {
                     </div>
                 </div>
             </section>
-            <div className="staff__wrapper">
-                <div className="staff__item">
-                <iframe className='staff__element' src="https://www.youtube.com/embed/OA27BRiQZbo?si=doR4j-a_FOH7UPaW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div>
+                <div style={{marginTop:'-5%'}} className='wrapper'>
+                    <h3 className="places__title section-title">Свято професій</h3>
+                </div>
+                <div className="staff__wrapper">
+                    <div className="staff__item">
+                        <iframe className='staff__element' src="https://www.youtube.com/embed/OA27BRiQZbo?si=doR4j-a_FOH7UPaW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

@@ -13,6 +13,7 @@ export const MoreProfession = () => {
     const [title, setTitle] = useState('');
     const [desc, setDesc] = useState();
     const [video, setVideo] = useState();
+    const [buttonMore, setButtonMore] = useState();
 
     const imagesRestMaster = [
         { src: 'https://previews.dropbox.com/p/thumb/ACOXfWC634Ock50S9sffZ52kc5iIJDyewkRlfKWrI9quoHl7qtOOZJdXyAlfMjivr1fxp57hSyyo7-W1USR80ToqIZBgpSEKc1fi4LB5pGiXouqtgdu0FTFCxfjcwwa54Yfn781425y6zXYi3R808CJ0_Vcfwa5aeN8LAA4PnH_zsJepXSL-25O31wvNkd-esk-bwjo8Se3cNS4YXT_WxrAauOO5UCqKEwr-sWR2yNXV_qFeqUbP1cgCLZjrU_p6yERv1ifZPdu40r7oieshEUOllOISaBP-e7jTrFwIgUZZ2F-Dn9mTg6f8qGSlQnGSqC1XvDYF6kshQrYDaMikvccoPBNNLlLtl54RgiWBSeMBQPwyZvLCNKYDxvkk5-EjnahSuHMki_pvTsk6aM79TNAMpKSJUgIibs4ga8rfhrPc0g/p.jpeg' },
@@ -84,6 +85,9 @@ export const MoreProfession = () => {
                 </ul>
                 <h3 className='news__card-desc'>Сфера професійного використовування випускників:</h3>
                 <p className='news__card-desc'>Випускники знаходять використання при виконанні робіт, пов’язаних із обслуговуванням відвідувачів у закладах ресторанного господарства різних типів і класів. При цьому можуть не тільки технологічно правильно виконувати дані операції, але й уміють аналізувати, прогнозувати наслідки своєї діяльності та приймати правильні раціональні рішення в процесі виконання виробничого завдання. Випускнику по завершенню присвоюють кваліфікацію “кваліфікований робітник” за професією “Майстер ресторанного обслуговування” IV розряду.</p>
+                <a className="news__card-more" href='https://drive.google.com/file/d/1rOPFygZLkPBpXlMT5lvb6DwBfLUJ5hw0/view' target='blank'>ДЕРЖСТАНДАРТ</a>
+                <br></br>
+                <br></br>
                 <br></br>
             </div>
             setDesc(desc_);
@@ -123,6 +127,13 @@ export const MoreProfession = () => {
                 </ul>
                 <h3 className='news__card-desc'>Сфера застосування професійних якостей випускників:</h3>
                 <p className='news__card-desc'>Випускники нашого Центру після закінчення навчання зможуть працевлаштовуватися в сферу торгівлі, заклади ресторанного господарства.</p>
+                <div style={{display:'flex', flexWrap:'wrap', gap:'20px'}}>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/1ofVBsgT-9qrLicZR8IhYP1EXPHeqbwv-/view' target='blank'>ДЕРЖСТАНДАРТ "ОФІЦІАНТ"</a>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/1Go1mSFD8VZxwbdyVKYzDRIKMrs8WP0Ol/view' target='blank'>ДЕРЖСТАНДАРТ "БАРМЕН"</a>
+                </div>
+
+                <br></br>
+                <br></br>
                 <br></br>
             </div>
             setDesc(desc_);
@@ -157,6 +168,13 @@ export const MoreProfession = () => {
                 </ul>
                 <h3 className='news__card-desc'>Сфера використання професійних навичок випускника:</h3>
                 <p className='news__card-desc'>По закінченню навчання наші випускники зможуть працювати на підприємствах громадського харчування (в ресторанах, кафе, їдальнях), в кондитерській промисловості (хлібокомбінатах, пекарнях тощо).</p>
+                <div style={{display:'flex', flexWrap:'wrap', gap:'20px'}}>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/1K9bZQHpvGSIGASgBdqs03lw2nn1Ifm8a/view' target='blank'>ДЕРЖСТАНДАРТ "КУХАР"</a>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/1NertFXcxWLvxMC8HUadImlQAzoCjwTPI/view' target='blank'>ДЕРЖСТАНДАРТ "КОНДИТЕР"</a>
+                </div>
+
+                <br></br>
+                <br></br>
                 <br></br>
             </div>
             setDesc(desc_);
@@ -215,6 +233,13 @@ export const MoreProfession = () => {
                 </ul>
                 <h3 className='news__card-desc'>Сфера професійного використання:</h3>
                 <p className='news__card-desc'>Aгент з організації туризму буде запитуваний у туристичних агенціях, без адміністратора не обійтися у готельно-ресторанній сфері, туристичних комплексах, салонах краси, великих магазинах, приватних освітніх центрах, клініках, у розважальних центрах, спортивних закладах тощо.</p>
+                <div style={{display:'flex', flexWrap:'wrap', gap:'20px'}}>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/1LXWceV8cg7-wTeVLmk2x-3mbHiM5oNYj/view' target='blank'>ДЕРЖСТАНДАРТ "АДМІНІСТРАТОР"</a>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/15Y1FGoLDhqUEnvejCYqbUezvsXWUxcfG/view' target='blank'>ДЕРЖСТАНДАРТ "АГЕНТ З ОРГАНІЗАЦІЇ ТУРИЗМУ"</a>
+                </div>
+
+                <br></br>
+                <br></br>
                 <br></br>
             </div>
             setDesc(desc_);
@@ -232,6 +257,7 @@ export const MoreProfession = () => {
             )
         }
         else if (id == 'florist') {
+            // 
             setTitle('Флорист');
             setImages(imagesFlorist);
             const desc_ = <div>
@@ -245,6 +271,19 @@ export const MoreProfession = () => {
                 </ul>
                 <h3 className='news__card-desc'>Сфера професійного застосування:</h3>
                 <p className='news__card-desc'>Bипускники можуть працевлаштовуватися у квіткові магазини, салони, студії, галереї.</p>
+                <h3 className='news__card-desc'>КОРОТКОСТРОКОВІ КУРСИ:</h3>
+                <p className='news__card-desc'>
+                    <a href='https://drive.google.com/file/d/12Vf1D7SQy6Ik-DqFXZmfqpbM8rv1AhYP/view' target='blcnk'>Курс “Букети. Основи складання”</a>
+                </p>
+                <p className='news__card-desc'>
+                    <a className='news__card-desc' href='https://drive.google.com/file/d/1DdX1_KWTIzWmSIrqja8fO_RxzOkm-TVV/view' target='blcnk'>Курс “Букети-іграшки. Основи складання”</a>
+                </p>
+                <p className='news__card-desc'>
+                    <a className='news__card-desc' href='https://drive.google.com/file/d/1u5DGJALUJmoyHsOlox2_1GwpgU_xSeh9/view' target='blcnk'>Курс “Букети і композиції з використанням овочів, фруктів, солодощів”</a>
+                </p>
+                <a className="news__card-more" href='https://drive.google.com/file/d/1alx3zVsF3RHf6DdDOp9u6C-vg9oedXmn/view' target='blank'>ДЕРЖСТАНДАРТ</a>
+                <br></br>
+                <br></br>
                 <br></br>
             </div>
             setDesc(desc_);
@@ -265,6 +304,9 @@ export const MoreProfession = () => {
                 </ul>
                 <h3 className='news__card-desc'>Сфера професійного використання:</h3>
                 <p className='news__card-desc'>Hаші випускники можуть працевлаштовуватися у салони краси, перукарні, косметичні центри тощо.</p>
+                <a className="news__card-more" href='https://drive.google.com/file/d/14zvFEmEH6Au6Nf4QwE8xHTQcnt2ZSmPj/view' target='blank'>ДЕРЖСТАНДАРТ</a>
+                <br></br>
+                <br></br>
                 <br></br>
             </div>
             setDesc(desc_);
@@ -302,6 +344,13 @@ export const MoreProfession = () => {
                 </ul>
                 <h3 className='news__card-desc'>Сфера професійного застосування випускника:</h3>
                 <p className='news__card-desc'>Майстри працюють у перукарнях, салонах краси, косметичних кабінетах, на показах у великих магазинах, театрах тощо.</p>
+                <div style={{display:'flex', flexWrap:'wrap', gap:'20px'}}>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/1AM_rYyL5szLcwrFiZQD3UXoTQjeEqoOK/view' target='blank'>ДЕРЖСТАНДАРТ "МАНІКЮРНИК"</a>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/11eqWCc8R-5PRP3UADTh49d8T_0B9mP_R/view' target='blank'>ДЕРЖСТАНДАРТ "ПЕДИКЮРНИК"</a>
+                </div>
+
+                <br></br>
+                <br></br>
                 <br></br>
             </div>
             setDesc(desc_);
@@ -331,6 +380,23 @@ export const MoreProfession = () => {
                 </ul>
                 <h3 className='news__card-desc'>Сфера професійного використання випускника:</h3>
                 <p className='news__card-desc'>Квітникарі можуть працевлаштуватися в будь-яких квіткових господарствах відкритого та закритого ґрунту; декоратори вітрин затребувані для художнього оформлення та декорування рекламно-інформаційного пристроїв інтер’єру, вітрин та торгівельно-вітринного обладнання торгівельного комплексу, виїзних ярмарок, виставок-продажу на таких видах підприємств: торговельні комплекси; заклади харчування; театри; готелі та ін.</p>
+                <h3 className='news__card-desc'>КОРОТКОСТРОКОВІ КУРСИ:</h3>
+                <p className='news__card-desc'>
+                    <a href='https://drive.google.com/file/d/1P8jJb-Y7kKXyNXLX11-ydQjI2mN1c0A1/view' target='blcnk'>Курс “Цибулинні рослини”</a>
+                </p>
+                <p className='news__card-desc'>
+                    <a className='news__card-desc' href='https://drive.google.com/file/d/1GfiDPur7ttZ8DVKdQhYnHO9dBkbay37W/view' target='blcnk'>Курс “Троянди. Висаджування, догляд, обрізування, боротьба з хворобами та шкідниками”</a>
+                </p>
+                <p className='news__card-desc'>
+                    <a className='news__card-desc' href='https://drive.google.com/file/d/1_GQbcTKTn8XER2Dy51Pqc4K_rr80XVoW/view' target='blcnk'>Курс “Дворічники та однорічники. Особливості висаджування та догляду”</a>
+                </p>
+                <div style={{display:'flex', flexWrap:'wrap', gap:'20px'}}>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/1eZ4xHlAgR6GGqP9rtOM1k193ggm5f1I8/view' target='blank'>ДЕРЖСТАНДАРТ "КВІТНИКАР"</a>
+                    <a style={{width:'auto'}} className="news__card-more" href='https://drive.google.com/file/d/11OSasq2s52-3a2pH83IzuDQJrs5-qc6k/view' target='blank'>ДЕРЖСТАНДАРТ "ДЕКОРАТОР ВІТРИН"</a>
+                </div>
+
+                <br></br>
+                <br></br>
                 <br></br>
             </div>
             setDesc(desc_);

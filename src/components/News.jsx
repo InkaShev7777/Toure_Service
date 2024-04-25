@@ -20,7 +20,7 @@ export const News = () => {
               <div className="news__card-pic">
                 <img
                   className="news__card-thumb"
-                  src="https://previews.dropbox.com/p/thumb/ACOfQWaZdD6IsBWmWnsa5x_mFx9zWM-2quXfZ6f-TYIpwPKok0PpysvDyf5WJUZEzpSh5yCPSt8tM_IFzWFIsfCk7ZoR2zDbmWSWiRgDNB4LFu2aOKTbi4bDHKk85tl31Vp3CA7TTsD97XXYqCnYtBX4jyguAfPyTxdi7lleKMff2RWqeGpt1JkPaT0yY59mWRgNpKjj17B-NbODfUK5JmJx0JLVkOxob7zu8de0F3Plz0MQNjkXWjkdaXBXg3rby5Na92dhFzuXT0teYCdJNtofEq60dwriFmcZWfAQH1e4Jvs1WwKa-Ea70y8zOXDBUYiIOwjI1HYmD2oxHIvSvjxM445EIWqplwm-xlhVv4f7A7DefbjBgJb_fzLDdrTHblgEJc3RP4OnuzDJCOK4d4h-/p.png"
+                  src="https://previews.dropbox.com/p/thumb/ACNVtpbkH1CZbMCeYaGFhlxmucEbK5WBemfWSfYwn88AycO_Rj7jDuLci7yo77Z4r-ng2Ra13mLNq3HlY65X5BYBbQHmifSOMNbx0kME48KQzYsK7HsJa7f_beY6C6xybkszkcmYa89zCjUwTmEePUf5u9t8Cuj3O942Sw9TZPvA3slA2xGNyFzrJL-Nrc0wgMCPrF97dnHBy9-PtRgzImCzMM4S0GhdN0xeYLrkl-zh3xZ03ul0JBhKDqOys7DnDTMHTsBqYJ6SAfb0TFbl5MnAtSj_tRmxM8qVJ6z01kKQzURd9ExVw6r0VLTveVq6ZadtfZVKeZnp10mcYOT9eVCJZnC3c1_L8bQKBqE0W3Ho6cCwdmDh8g2Wb-pfAGYdGd9no2-Hr0jXD78teiqKjdJXZwn7XbGt5rrz7OQB9mauyA/p.jpeg"
                   alt="img"
                 />
                 <div className="news__card-stats">
