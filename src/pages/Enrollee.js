@@ -14,12 +14,12 @@ export const Enrollee = () => {
               <div className="achivements__achievement-enrollee achievement">
                 <div className="achievemt__pic">
                   <img
-                    src="https://previews.dropbox.com/p/thumb/ACPxjW0LVNnpbOPHg7jiIaP4Kv7S5cBk0j6KyD_RCuMtmWdssEj73D8pISv0vjn0nNkUHT7GlFI3immLSS4mc1t55BgFqXSQNsI80phb5Vh5ZQFKULU80BLrh7L2nt9rPUlB2-Ty5fkLZc8-JQmQeReHp5B3RzRiMZPb8kQ8Q13iJsdMw5wWgD_4eRMuKp5wmmi2D6STdsCcWjcuxI8TPMjG5_ThkC6lssVK2X_tiRNbKmVsqG9vx-9F8RZeP4ZFQvSdXSFsUFgYNquzIPOqqNr37eBVZazzujQQHY_ZLah2OH9l1aRi8Tp8_R7nTygiUGPD68ckfRzvBWb7tAmU3hdP/p.jpeg"
+                    src="https://i.ibb.co/C2WqDbJ/IMG-20240328-114951-865-768x994.jpg"
                     alt="some img"
                     className="achivement__thumb-enrollee"
                   />
                    <img
-                    src="https://previews.dropbox.com/p/thumb/ACN2RMOVeZKE8hESgcC2eU29akSJYqhOVlG7h_yf4Vmiga97zovZ86JgXfmbfcA40b5OzVslO8qiJz69R9F8OOIimFZ7gmL_GWha1KvSk4b7XJRqm9L9EWeMGmbL3nvoS9mJp2SCyWy5cTo-5mrg6lrtciE7NfGErkekSYkqxqhAsABYaJms03btO2JQU97BT1nNZNhWGXbHPfSYaQiSYEqg5DtglQeh4jHdyUBPiCz5aykywOI4UxwbbjjhTlQs9bjCOZ0xE7jwYzYQXvlTAC76wqNlOzW-Hp2KHETWrrHRN8gD5yFlY4QSQyJaWCMtVhMrnDsVqRY5CDm01-xIXYCY/p.jpeg"
+                    src="https://i.ibb.co/f980JgC/IMG-20220329-153317-597.jpg"
                     alt="some img"
                     className="achivement__thumb-enrollee"
                   />
@@ -91,7 +91,7 @@ export const Enrollee = () => {
           </div>
         </div>
       </section>
-      <div className='wrapper'>
+      <div style={{marginTop:'-5%'}} className='wrapper'>
         <h3 className="places__title section-title">ЯКІ ПЛЮСИ НАВЧАННЯ У ПРОФТЕХУ, ЯКІ ПРЕДМЕТИ ТАМ ВИВЧАЮТЬ ТА ЯК ШВИДКО МОЖНА ЗДОБУТИ ПРОФЕСІЮ – МОН ЗАПУСКАЄ СЕРІЮ ВІДЕОРОЗ’ЯСНЕНЬ ДЛЯ ВСТУПНИКІВ</h3>
         <p className="news__card-desc">Міністерство освіти і науки створило серію відеороликів, де є відповіді на найпоширеніші запитання про вступ у заклади профосвіти. Цю тему коментує генеральний директор директорату професійної освіти МОН Ірина Шумік. Розділ з відеороз’ясненнями було створено на сайті МОН 29 квітня 2019 року.</p>
         <p className="news__card-desc">У роликах Ірина Шумік розповідає, чи потрібні для вступу в профтех паспорт чи сертифікати ЗНО, які предмети вивчають учні, скільки років треба навчатися, щоб здобути фах тощо. Наразі опубліковане перше відео про те, як обрати заклад профосвіти. Надалі розділ оновлюватиметься кілька разів на тиждень.</p>

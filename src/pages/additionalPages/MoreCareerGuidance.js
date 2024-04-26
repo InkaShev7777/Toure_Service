@@ -8,7 +8,7 @@ export const MoreCareerGuidance = () => {
     const { id } = useParams();
     const [title, setTitle] = useState('');
     const [desc, setDesc] = useState();
-    const images = [{ src: 'https://previews.dropbox.com/p/thumb/ACSC1NgQWAr3alHGGsL-hz3eGYjqHWsLVhu324ghmT1OZUjBPNrdap-_NYnhz_ktxhEsHPeO1N82Puy4imP1w_Cchl2l1B917Iv08Ss6zm5XFybNv3UplPER5dMhNY7Mg5hrNREzlOEeNLMfT8mQ4TPUN0f9HNgT-bDPLmjAbPN7ngwYk3LyhleoJwCMQqwO8AZFxMYGTmPiwGi-Z7ULqn8ogk616ZPARya1CDjLoNCxZC4xnfdxc5zVL_yl4VuX7tsnHhlr0jq8clylLAFc05irDG78kTpg7JygyHJcQgzTHKFvhIPDiPEOQuiGjfdm1-VhY2LtlfPDvNC2DiBeV_Xk/p.jpeg' }];
+    const images = [{ src: 'https://i.ibb.co/L92c93c/DiBeV-Xk.jpg' }];
 
     useEffect(() => {
         console.log(id);

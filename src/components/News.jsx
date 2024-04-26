@@ -20,7 +20,7 @@ export const News = () => {
               <div className="news__card-pic">
                 <img
                   className="news__card-thumb"
-                  src="https://previews.dropbox.com/p/thumb/ACNVtpbkH1CZbMCeYaGFhlxmucEbK5WBemfWSfYwn88AycO_Rj7jDuLci7yo77Z4r-ng2Ra13mLNq3HlY65X5BYBbQHmifSOMNbx0kME48KQzYsK7HsJa7f_beY6C6xybkszkcmYa89zCjUwTmEePUf5u9t8Cuj3O942Sw9TZPvA3slA2xGNyFzrJL-Nrc0wgMCPrF97dnHBy9-PtRgzImCzMM4S0GhdN0xeYLrkl-zh3xZ03ul0JBhKDqOys7DnDTMHTsBqYJ6SAfb0TFbl5MnAtSj_tRmxM8qVJ6z01kKQzURd9ExVw6r0VLTveVq6ZadtfZVKeZnp10mcYOT9eVCJZnC3c1_L8bQKBqE0W3Ho6cCwdmDh8g2Wb-pfAGYdGd9no2-Hr0jXD78teiqKjdJXZwn7XbGt5rrz7OQB9mauyA/p.jpeg"
+                  src="https://i.ibb.co/0f9tBJX/IMG-2580.jpg"
                   alt="img"
                 />
                 <div className="news__card-stats">
@@ -46,7 +46,7 @@ export const News = () => {
               <div className="news__card-pic">
                 <img
                   className="news__card-thumb"
-                  src="https://previews.dropbox.com/p/thumb/ACNVCYXXi1g721eLRPLz0EnhZDXW5ldJ7BQRp5fpehHYdpnSmRXA6VY5UVvnvRKZRlswHCysfIHCvr4LxbOtqJ1d-6eNeCtXCXQxCdLXuSX6Y7-EK1GkiAuUZl-HnR-Wpi9yjCG68u_chavlqDZe2dvGc6BiC0apjCOazcYJeKOSs25GJAK5vTvKZpeK4vZyWZ8-DLwTtVK2-IpxDsYuK8h9WRm1dmKym6AvC3uMO5k5_BdfozhtHsOuL4uchpKSwn1GZXkHCtyPHKF-8AwsyLr6mCr11A_G4cmA-871PYTCmCGziqJVqSTR59QL0etMSkPlX0vMeYdVinbFSHQKNQnx/p.jpeg"
+                  src="https://i.ibb.co/gjQSzFY/HRHG2935.jpg"
                   alt="img"
                 />
                 <div className="news__card-stats">
@@ -72,7 +72,7 @@ export const News = () => {
               <div className="news__card-pic">
                 <img
                   className="news__card-thumb"
-                  src="https://previews.dropbox.com/p/thumb/ACP61kaaA0-iGzKVRfKsvWc21unJoGj33-gL2DA7QnDmna9aeZ4FWIMyxpPvVFDk7MAKchCC_VvSV8_WT6gzQmVxlQNFFxHVIIXSnNdtA7CT-86p7sv7eYH9xMZhFfTp3JzHHGq7zCXwWWR2IhAlMOvWRUwuRMhsKEy-cHho9w8nSTlhdVw21XsL2WaHhGNJ-8fU5eykIonk4oAfONTeqvOzpM5tOmLMiN59rPyR0rk7n7RnnOxKcAizVGE0g3Gg6RthZigrBsgl9jNyMTPtulUrAQsX37Edk2LPN1VrEbhbwbIK_9yN0zxSeGrmBQcYo2LWClVPlHPPaA9XPa6HZ9-n/p.jpeg"
+                  src="https://i.ibb.co/yRWXY5k/IMG-20211012-113530.jpg"
                   alt="img"
                 />
                 <div className="news__card-stats">
@@ -98,7 +98,7 @@ export const News = () => {
               <div className="news__card-pic">
                 <img
                   className="news__card-thumb"
-                  src="https://previews.dropbox.com/p/thumb/ACMx3qrDGIkLHQnfJbIJU19Y_Nq85-ib5KTWUmFDpj4IdZ4kAA0oZfKgUdUKh_S9Tst-aYEAnwJCl9uVX9yUCjTk_ZWgIwfCB4qgyW7ARi-j9DVz_QAi8wjH2iBGQVnl0KULPA8FFbE6kw4c4yv4bM9iA2As6wEy-o86OMKUsZansKavGYlEPx6UuvCG71XqSTpUyTEkvyeuofY1goqPsxFTsSGNzVrikgUWodxf0afAxjXnuWtojkn4VT60yboRtVJs9XgDr5fVwOt35SkTKORkTu7IWcCMMRx2U95I34a1knfRgxe9nJXAUWCgbWiAOG4menHrwufm8UjZ8YuIbv0Vj26qLcLCxRBUy_xJJX3ZKV-DNuvAA0fuRl8IFau3XO4ZYhaQcd8818B962a6i-GR/p.jpeg"
+                  src="https://i.ibb.co/2gcLs0m/IMG-2699.jpg"
                   alt="img"
                 />
                 <div className="news__card-stats">
@@ -125,7 +125,7 @@ export const News = () => {
               <div className="news__card-pic">
                 <img
                   className="news__card-thumb"
-                  src="https://previews.dropbox.com/p/thumb/ACNmbuYCE8wp6XEr4HdxAp2mJceQ6z-WG17ZwiCqKd2yuW8sxLklGfbifChA8TcJMECRQwJsO41aabRffq1x9x-MZjEa7SRnmb2plCbBTDSgcKx-mqRW9cqpnhmfTqqcJCLcpX2RGtDVAGdVWIOcGIkOqxnQdtOgzCQ_qMTV1H0kty79ufj-QKsiRRz5oPuBnVIfn1U4gCj3w2oyKGV0L0wWtpSTWl_zz3hj19kWw4bM6LumqlJ3Fotorq-coIqONawkts9Jo6L6DypYWgzoBkBZ4gQhSi7J9q7LX7iIw-ejAWdcr-0EuUNXNAgeeqUZ05pH2YccdyHjFp-oaIqoiNF-LJ6uaO0mlj-i5OHsRtbWXeVRLoIoY5LqWvFUR5nbyqZ_VeJfMOAXCONRXT1kjTMk/p.jpeg"
+                  src="https://i.ibb.co/0fMpdhT/IMG-2460.jpg"
                   alt="img"
                 />
                 <div className="news__card-stats">
@@ -151,7 +151,7 @@ export const News = () => {
               <div className="news__card-pic">
                 <img
                   className="news__card-thumb"
-                  src="https://previews.dropbox.com/p/thumb/ACNImD121XiIz-Xx0TdfmcJ-hnoFM8iGJZCs9Rwn2Ty1Auzi4X9nHdSctr8RQj-s57xYh7XnyB92lycc7cMEcrFholbEWBzKd9-tuICbtMH4yy-J5NPZtPI9iAjW0KwyCJ6hxrdFgX7qZo2CNzfTIGoILcGKl_mrwCp6ArzLV9joHPoMhf4kLWw3qSxnpWWoK26L0zVTd1idp5iQ_19OsO5-_Mr77EeKLOemQkFeyrGtLia0bsF4BWn0KddBxcZ0g1ykSDZo9n48fDzbuR3JVXbCkVPrpQRz8zIcYScNjb7xBqhj2t7sxUrbmt9F3PW5gVaeMDHU80XRRnkDxXd-qFmDqIHzHQClQZYtWZFyrouggQ/p.jpeg"
+                  src="https://i.ibb.co/M77RgC3/IMG-2838.jpg"
                   alt="img"
                 />
                 <div className="news__card-stats">

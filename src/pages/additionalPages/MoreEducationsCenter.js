@@ -43,7 +43,7 @@ export const MoreEducationsCenter = () => {
             setImages(imagesStyleV);
             const video_ =
                 <div>
-                    <div className='wrapper'>
+                    <div style={{marginTop:'-5%'}} className='wrapper'>
                         <h2 className="news__title section-title">
                             Навчально-практичний центр перукарського мистецтва "Стиль-V"
                         </h2>
@@ -114,7 +114,7 @@ export const MoreEducationsCenter = () => {
             setDesc(desc_);
 
             const video_ = <div>
-                <div className='wrapper'>
+                <div style={{marginTop:'-5%'}} className='wrapper'>
                     <h2 className="news__title section-title">
                         Ресторан в українському стилі "Солоха запрошує"
                     </h2>

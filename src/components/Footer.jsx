@@ -16,53 +16,45 @@ export const Footer = () => {
                             <ul className='footer__menu'>
                                 <li className="footer__menu-item">
                                     <h3 className="footer__menu-title">
-                                        Company
+                                        Наші контакти:
                                     </h3>
                                 </li>
                                 <li className="footer__menu-item">
-                                    <a href="#!" className="footer__menu-link">About</a>
+                                    <p className="footer__menu-link">+38(056)-785-92-78</p>
                                 </li>
 
                                 <li className="footer__menu-item">
-                                    <a href="#!" className="footer__menu-link">Team</a>
+                                    <p className="footer__menu-link">+38(095)-110-65-26</p>
                                 </li>
 
                                 <li className="footer__menu-item">
-                                    <a href="#!" className="footer__menu-link">Carers</a>
-                                </li>
-
-                                <li className="footer__menu-item">
-                                    <a href="#!" className="footer__menu-link">Privati Polity</a>
+                                    <p className="footer__menu-link">(Viber, Telegram)</p>
                                 </li>
                             </ul>
 
                             <ul className='footer__menu'>
                                 <li className="footer__menu-item">
                                     <h3 className="footer__menu-title">
-                                        Locations
+                                        Адреса:
                                     </h3>
                                 </li>
                                 <li className="footer__menu-item">
-                                    <a href="#!" className="footer__menu-link">Tokio</a>
+                                    <p className="footer__menu-link">м.Дніпро</p>
                                 </li>
 
                                 <li className="footer__menu-item">
-                                    <a href="#!" className="footer__menu-link">Kayot</a>
+                                    <p className="footer__menu-link">вул.Старочумацька</p>
                                 </li>
 
                                 <li className="footer__menu-item">
-                                    <a href="#!" className="footer__menu-link">Osaca</a>
-                                </li>
-
-                                <li className="footer__menu-item">
-                                    <a href="#!" className="footer__menu-link">Hokaido</a>
+                                    <p className="footer__menu-link">(Байкальська), 7</p>
                                 </li>
                             </ul>
 
                             <ul className='footer__menu-social'>
                                 <li className="footer__menu-item">
                                     <h3 className="footer__menu-title">
-                                        Social Media
+                                        Соціальні мережі:
                                     </h3>
                                 </li>
                                 <li className="footer__menu-item">

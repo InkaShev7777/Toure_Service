@@ -16,51 +16,51 @@ export const MoreProfession = () => {
     const [buttonMore, setButtonMore] = useState();
 
     const imagesRestMaster = [
-        { src: 'https://previews.dropbox.com/p/thumb/ACOXfWC634Ock50S9sffZ52kc5iIJDyewkRlfKWrI9quoHl7qtOOZJdXyAlfMjivr1fxp57hSyyo7-W1USR80ToqIZBgpSEKc1fi4LB5pGiXouqtgdu0FTFCxfjcwwa54Yfn781425y6zXYi3R808CJ0_Vcfwa5aeN8LAA4PnH_zsJepXSL-25O31wvNkd-esk-bwjo8Se3cNS4YXT_WxrAauOO5UCqKEwr-sWR2yNXV_qFeqUbP1cgCLZjrU_p6yERv1ifZPdu40r7oieshEUOllOISaBP-e7jTrFwIgUZZ2F-Dn9mTg6f8qGSlQnGSqC1XvDYF6kshQrYDaMikvccoPBNNLlLtl54RgiWBSeMBQPwyZvLCNKYDxvkk5-EjnahSuHMki_pvTsk6aM79TNAMpKSJUgIibs4ga8rfhrPc0g/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACM4YifdygEyhQDoueItuUWLThyVKtkMmArGiHZTsx39mpPWeIHWsFXQ4dtFn1VCeQDevatKiKNWc-vkHUv3FccNKm75maRW_y6n2OgotTrBDFNR-EVJ_xi4DpazLaiWbDOazpx2V3GtGWINRsmAmXkcqkvFLrzVRa_BUNva36byUd0IdugiPVDNV4aHUKwW0ax4oQgbrQxvDBwu6f78G56wJqjG_IXBKGT94E_t9h8AwAvH_gaZH8Qc-4ZOLtksTxHmJifOgHyCzCEWcA2pc_r-JdnN9nS3sVsY9G37TdJBWeQtVEPiWukz7j0F_vFxKYAhh0ua6X6F11Ios_3K9eD0oQG50XF2nmPNk9ijeimrH-LDR0oKoKhdnoOmB3tKP7VDdBTQN0OHhPFXXfGpzq7hYuNtJevnFUnUfQjMpuXyZA/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACO_VWdlSsFy0iUywHWYPuDMn3_kaf-I7QN8m2NmQ-MOgr4xGT3ApDYMAthFAlMvrpJHUbkx2N1e3Z_Jg5OSWEmBg-1i_0i0EHbSQM00EKNvyGCa2LQQY5nscONi5TBQ6VF0AMDZUqS71zgcvvzJFEEf2XUwKR5sVaTfYmgzjSs1uat5zVw9BSfYZWAOdYyjdktnALAcbaxcUuyqOKXzkgCLY4BpW9AN1VI_nK0qm_mGMDQKlZbFcFTJJCupa7Eeo2oL_XlHKAV1vgOctgso1XBH1t2svg9hVrkEjXs7-yOR8P8aYtG-X4GpkWSwp8fm4BirbvedQjLxTMxn8lawNeDrtGQmDuczDwnLQKLhSd1IhhrZGgSzzQAOS1h5yqztYMnrtwVDhtBDb5BKWEXO2AYvvWCQOTrc_ci-RVvFjzctfw/p.jpeg' }
+        { src: 'https://i.ibb.co/kgRmrgz/2.jpg' },
+        { src: 'https://i.ibb.co/2W8RdkP/IMG-2447.jpg' },
+        { src: 'https://i.ibb.co/74rv6rY/IMG-2451.jpg' }
     ]
 
     const imagesWaiterBarmenAdmin = [
-        { src: 'https://previews.dropbox.com/p/thumb/ACN8kfAsA7FJjpm5gqqfo_6fXkLQPTvLcPb7ZO8nMG4Guuj3FKEWfAOVxlqC3pRPhKsR4NVDabdN6Mng1UDwq32ryOws3e6RiBM-TTQ5zIF7mf7LAnpUOAKMiKRddjRrbeiO5jc3Ezxq0DqizVAny-qO2Pxv_v3lC2UGL41r_QLx6TpepBxkCNBOIQUo7VXXLYybZiWuSZ9bTl0_ldUg6FEzJoYx2fRmuHnWlucVSoBbKJC84lPUJzQ5XCWowa5tn6TRyyrjFEOwkZ_lGKiiwyXpM8Lo7y4jSyFCRwmq6EYtyb92VlBqiFCxXSRKQroYm1sbgph5auYB6OUCXFmPjOlqybb7Km66P0HJGLoQYw-wXhGmmiXy0-UKclNW5aT12TQkhzUOINAj9IqBkmC5XEqVPF7689w0tpPVr38g82_rzw/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACNGN_DnID38S_tpimjd9yoXFjm5pt7qeRi_WHka0ZB8TBK4ANEBROAN6oMVw4kuy6rAR5Jw7GDsG197rJnhXn3ReVDr-Ix_W9FQKg6PnBiIVc-H-IOgPExOb_vq7-paE2flSVsAF6glqPWgRk3t56jfIAzVzLXf1_rmHMK6dRSCkJSuhVGHlguExdSCvcI7_K6VgHrDC6pErBaOcpyRpt_YyA9ZPECa1S4aXB43t7Lumf18lkXLG-qXoHctf-VbDxgz_2uggiiZB6jz0p00VQD6JIW1gnZLx-a94D9RJk18a64NQLpSij1oHzhK1z_vu766O_YTSD1O-mRiNJlvMjP2x7k1b7Y4Si4tA4EawpFXNZ5kv3SDeRO2t8sifWUE1EGkfiwHexmNlNZBgwStgPCAQAgxMes0hOCDCqWNxqN1WQ/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACNNOywuBoD2jjTBnam5FNPWm3aLT6tuGrerA18E06y1qN4Gf2voFT1dnsIEYA5x1ZoqCHWlgXkxraNT4v3Y3N4FzqCTS3vIQo7YpGaD5GFL3iPotysL63s2mNJTWeTLvyjeQbbKTu7LY49UaBiySmOKniXfQvNj3VqB1GCwo7DEqsnKYgjO7vD1HBaOckZZ1B7qnEEjHE_HZyZ53nqW3iP9516rW955Ae2tKYKvMci_H3IJiKJs05pszmoscg5gAmBgXXTyiatgYClEJS-Bo7VtcMj7JTKVG42SZj64mNGZApdTFb5vltKQhIQyH4_qQXWNpGt31HxExzePycO11G3i6cnMVpyZmPqqTuwFDdNgyA/p.jpeg' },
+        { src: 'https://i.ibb.co/QjsNvsF/IMG-2480.jpg' },
+        { src: 'https://i.ibb.co/Jc3D6T7/IMG-2477.jpg' },
+        { src: 'https://i.ibb.co/Nr7TZNV/IMG-2460.jpg' },
     ]
 
     const imagesConfectioner = [
-        { src: 'https://previews.dropbox.com/p/thumb/ACPzi3Hk3Gc-rI50IE2e6OVi7Yr8IV4Ac1WKxze3qe_xLN3Lx2vNIU_MxjkJO0dqUozzG1GYXB16suJFAxCezVhxWZuGl6ot7bGQcbzyfnDni5QZhEuKDmdKOKuvuhbjbJquPp1SqQG_RGJVU3UaG8rxnN12hHsRQmdfObo5PuCbWO_05v9YB4jj-dDxXuUpFo-N8G9fENTjSAhkeMjC-3Mm43OBdtrhxeSGLckQIXd_IVg_992Qgmvs2LikcUExKLXFXxnxulJehaTmLIfTc1XiJMI8EgL9Idk-6vytNJ0u_F151RgBkySsPsHm2UcqB-Te4fUZnJ-Y0NzwBmweamslV0w1Ua_chr0Xv0lbdUA6DS_gPsrkNf_dAYucoqMhd9UQyAlRfp8t2tp0ZgbyBBvT_8qa3csjms2GqrDFT1XHBQ/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACMcBBHPoq_4ebmw3rqOrVDD09MN5vpha6cxzlue7TcxMB5PjlxRIsoK-EH0sJC2bgx6hjl1Id-jwqMCcuFcgBNwpWlP8bw3_88OOJOjg7fUcGqpjSEFt3ONcbDkTV7Gwm8F7o_QBLv6QBHmRKZFBI6y8mmwB9L0yEy6d5VVnr7JMsYuO5gmzRwjPSEAzP-Ekr9lFiY1dNM8aDmwwQCmwa8asM2WO9n0c0E280rS7hpKyZJ0pYNoXYGqsoNgX5s2aZr5JpaZnoHpXEpiJSu7DWMslHT1WYM1_Ai3PG5-PFAjUmrTJBVUIzYLPr0ln5z9FqS3MKTTjbY7nTeF8kQ2InSP/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACMgzABKhfZ7Dq6Z7cccOxwiR_idXmPklGBdYXsA3FGun4gAZ9yA8Xxn58YqNDCcWhbtNJMvgn0VV8kBvkKx1UEZuZ3FSWx0yFilHpmyx57q4rCeKwpYK2ZWLwWdeYrHvDDVk3pbI2GRx-B4DTSB1l2J-4NKXmLa6pqiu79FHaE5TWli2-buuGYrtmzx3rxVc8_HbTYu-kc8wKdSt4A6dcYIGCPu1SHZ-HAt-REdX6nHdczATd8fnNKlgR8_iXc54w5W5lnMNy0JKaJAzg3ZiLzQ14-xjTZH1iffFC1HUsSTvpWPS7BZMiZXLWi2MLty0SknGknCMLcRHaSKkzg0F40W/p.jpeg' }
+        { src: 'https://i.ibb.co/SfQFbq0/image.jpg' },
+        { src: 'https://i.ibb.co/LkmYfSk/4.jpg' },
+        { src: 'https://i.ibb.co/t3RWfTW/3.jpg' }
     ]
 
     const imagesAdmin = [
-        { src: 'https://previews.dropbox.com/p/thumb/ACPD8CJQbiI4SjmOZ4C3XRhaRbxLKqolZleG2W0Z4oP4OrgVBr6i0_vstxp3xYatjsN5C2aQcP0d5rCB2Wj3KgfHHtUS0LgzZv5_qPcVVMCNc1il9lXcUnw35kTRcFW_zNZMmKV_Qk_pnTzUZLcxRUwFxFDfvZa1s2Yhbtqar1zhC8yoQYfGm11DSvBOvoTnOaPd2CzVMQ9BYO3fPL-aLujfILk8oSC72kYan2A1Wf89kWcESgZtZAyIXv94O5oGU0T8XcnTFasTUm9gNQjwCKGgUF2NAs8AvZle5TeX0toUurEqLzAU9Vl3p3zACZxV1lRtGjEymDF6LTuzrGUVJffi5pEs9BSRwWgD-fjYuah9qp35c0CthWJF9s5EI9B7gI6Ga5zvwFEpTgDNuHNopRsScJoMGSZfT8RIYgRFWHtngQ/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACN2m12ZTChVg7hyprL57S4Go9IRMA6OoJofpyexbA0A0inO1XflFI2QuGvbGwfXrqa2ZT5CRXmi8yi82lSOlOWOe0W8XLr0lhYS19LYTpWj3y9Vqhw0zMmuWsRxM05Uk_nZf0RhgDq339Ud-2NRQF3tkS7kXetF7qhO16ehbuvEyOAIY9VXdCTxHrNg8UqFbcbTRNqDIL_Bk8nVHqobsHkwc7kiDGIBsd0C7ngLXBUOvDQN39Ds7CQHcKnciaa10vyNVunpNEvLVG5PqOFFiqLznnUwhQKodACfU56ywXcJuP0l75gSsLsDih2vyZxVv0pW-byjv21juh2-RDhvaIKQ/p.jpeg' }
+        { src: 'https://i.ibb.co/vhPNpWv/image.jpg' },
+        { src: 'https://i.ibb.co/3NjgBF8/1355927769-sam-9829.jpg' }
     ]
 
     const imagesFlorist = [
-        { src: 'https://previews.dropbox.com/p/thumb/ACNDsCBDSwgBkbDQEe8PCe6jTDuyzXvJQ6d8ZpE4BLGsuxDHakXTOmk9ccUJB5cd1l9ccdnx4tDTW7mWeO_5inA3kF40m7BzuEDCx5uUKKzH2ht_VrtFnLHXgXD1zba9lPo1zOkjQTMh1wHypuZ0NVffrhFhL_L3ge2gmBdNUbxq0CaBaBKy_mPHEqgwG2-5MISmt7hanWh4IQTCgrsNpywjwLCA_8Gq3rssCPjxASTl5lhQBlz_YApugahnwcHhJkNR2NYYnwM5I47w_waRWU7Ga_w4rlwCf_hHO4i8mKwvD7je6djw77BU5mWkAyK60lp9gfX3Ir7sRqV9feqvcA9qzI4sbvkyPkeX0Ts2Ed33cqpNt1NhDEtDgZwukxvma-OwXdYPIWHi2ZpYAtUtPNl3TgrcmmVlrnIe_TQ8M3nLGg/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACN8yfkf1s9_Ksjwc8qetCiNjeS8fCpoOyF3E_loCLaSxLVLjtPR2UqOq_cO1HDMfNS4aagHU7FusQsAD0_sn9qzmUGLZpHWHcb_6LbzfLv2wRQcqtow7VeJzLulc6ByCIRB9uPEommXrsxKQJw74_uQmvEqabq0Rqh4Gj2iy5-j0BIV1VLhmOx-SGP5NTN8P0YIZqnuhEO3uTQbjS0kHcUD1Ie1NHyGnBJHNBxb97b8nmEcbR5-coQX9I5rU7xMUZ5kiAsWT4qStw-NYGxUGjzmhJXqPoAoLVPM18CUVmxa5KUHVFjs8tprdrq1cXhPYvwV1StW1nnzTE6EgSNmoqsPLJtX-HOzjrNXysU7fiZBpI4RVm-OiKPnXcpU7yeMRDMR_f5ddDpY6p01wtdmqjTpp-C5M9dXc9yKL0e12jUrmg/p.jpeg' }
+        { src: 'https://i.ibb.co/pdZTyHJ/image.jpg' },
+        { src: 'https://i.ibb.co/pdZTyHJ/image.jpg' }
     ]
 
     const imagesHairMaster = [
-        { src: 'https://previews.dropbox.com/p/thumb/ACPadqzDqarpaBxHkezzE99Rab3H9OKrrD48UhijRXml1b9oqduZA3QoeDw8Se8vYCJvLevOCU03ardE00JVdZ4yWHTH1Q5dxzNqsK9RaBUCx5F1hRxlXbm3I_CgPerhSw7WQSHYrzT-ji9wu3_3t78qXZniv9AnsnH7PU038tQf4fpkPQjHJryr_D7Sqt6iXBPC-k4IlxKrMLCipvix1zCGULZKqJEfMR0VE0eIgAr3vgxuG7SlWH3XSkuJ1CmVd39SMY51cilzYnERIXBODnqy3c2Gk1bq9JWsAcVdEZB2XzyUkA83PZ-b5pMK6Tb-B55rXXdEUxTyqGI9vsy85MkBFvMokTjQc_3Xc6d2w9ZqAvFjYjj-SSrLwb3byvdUK8boAzYaB0m5_tvxLz5gRZqw4UJMkdI6PGx8MxdtFgsVaA/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACOKRzm3UNGKBnOaPVxB26-t7Lj5Q0Ybv5HSnQvK9jakDfrlyl6IHJyYcJ3owYMVCZ5GkfBeaXsaeyvQ8Y9tE_A8wGRe4sn-npEQ9735UHvbknRs5yCcQwH6AQBmaHcxPtKFAErCVzKWm_r63uoHETSK2dicdBJDLkAqvKQK0OhxuU7jCEF1YpIf84eBfFd6m_etq84JGoNBb1HuyEcmtvjPHNDnn3VLMC5y0YP99giI3XfwcS2BtMByRMBW7VZZaRsb5K3mkYB6eXqMqqgdtgxOEoSPAHdTFg8A-biIO9snrgC4liOQvf-vgr9FJpap5Vo9odCLACUYAqP5lOFZTepReEG53nMfmZjs9Z2A8aXS9-ZQW3BxNejzU8MPZXBJHE-Nwj3Qu7HwUtmq1TZcBvxZ8gafKCb7VfqjgMBDR-Pm4Q/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACM8bZ56ov3VqU5aqNtOVmtPPAlsYE2j94JtrlBFaDGbjAljaOHzbKIli6fM-FHQtxO_gBCjiWKVgb3ziSvExLocD4zd1-BrWXiwI6KU-MDwL3_fIKPkv1RvLrE0EqV0FTBgPAuLYdhoc5wqbJCSY_GY4IMRrY18UlZY1qQjv9ZXk53Egm6gePeE9j_qPsLMpMN5-N9ui086u9eu3cs7nUC42oxtHF7JSlI5j2GZUyjP9w3dFb4opP2B5JiXf5o53VUDtoYyKOnwUibE7_AFUNJ31ps_wITZd3G6gj9FzPGHvwz_I232bcBFkOqi2O_S2xdM_Rx5qkzNFlAW0bwVSIpdnxmuvZYnqB2X2r1ahvXHi8teyPMRw6YTnGKqCMnbh8E0k4eJtOBVm2_vzWiWwuFJBI87XZ2f7evRctxZ4FkqFQ/p.jpeg' }
+        { src: 'https://i.ibb.co/1MqXDJL/IMG-1256.jpg' },
+        { src: 'https://i.ibb.co/DQwZ41R/IMG-1233.jpg' },
+        { src: 'https://i.ibb.co/4NPX5gk/2.jpg' }
     ]
 
     const imagesNailMaster = [
-        { src: 'https://previews.dropbox.com/p/thumb/ACN1l6jPvEXhyGvhzc5vMaUELXPo9labW77led8fC5IAYVCzDHByCl-wjkDrVh1oBioda0Z_g97N5pHwtrZv5Qz9S8_MWKsUtKI4-zfrvuMu_QBmykKxYflsmQIFazMUV1-jGwMbOHpepzEsiKrNUu6X9n1UhBGNVnK9olNIxXFkQL_Z0GgTtsi-BwSLpRv4zkVYutR_bnPw7Zaol9p1D6Z3LOe8VMjER1Q7uJ4GVYTo6VkT0hrWDSviu6e_8-9gXtUfVXJoH3oWFn-L-e-ZwXJrKWx-MdTfQ8hGMEQcHQtvVktH2XOyk8qMDRZE3j2ENF-3Yk7Yp2CkWL_geow8pRgDm5E22PdGDeldGnoHM6kvIjDbqopejXS_TsSJ9zvt-y0KSw_2XPhD1zJOVgTaYYmq6N2TJyPfkbPLMn9d5EGTtg/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACOafbEAQXbnB13Fklipms7-L-y5mhTgCaXPbtrvXp0ENx45t_fe1BhJs3e9qERncyajza4jugcn19GFeoVpeOlBqTCAYfS7aBVMPT64cU-DMUfo83oKy2kGjRrunQ3oVg2SkN-rD6sYEupwFsiDkXf2JjwfLmIQ7aFP0Jn9PNwfiThlGVKrCYoAgPWF2EQbritEK-F1AIjKmQSY6CkWR1JJT9mUK-dmQtj8Qa66Pm62OLSDIny6WhqjEYJRywNY_NCMm-4OfW9R14LopdRrlNy2vTzTFWKn18OMLRSkMxVse_hkbL5XlnO4cytWhaeDZuagS-AcZt9X7JrPHCxC4HK2bEV6QwsYtQQwmQ-8BBWfQlQ3EYqmddZ08px7dGAhehOI-au0Xw04PxN_whXgdN9_WOasNlejZnghcb_k1DQhBw/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACM_hVlq2PFPj0lE88yd37JN-Sg37QGYHdtW-G_JTEP06Mv88l9RyTjf5X37I3PD9w6e5vgzRF4ews1kNwRxXUCwMTF7UthQJMVnoL9E1I9Y8GC5-4JWmKaqgKiUhBwXnvl-3LIqs5DvkSadDN3C7bVPDrUuFSkqddD7rdhSMPDuDu3xPhs3miF7vZkOjV3UAfHa0QTHFHJF7yT_fTePHGFPnazRm4lPVWJmSRo1J5VTs81QbHITp0rDrsrO0nkQas-Wo7rgkXMe1vJKxVOSJU4bg_N50xpe6RjZ8JCAZVyH65UIYmx_WpRqhbpbyqbiJ5nsiG8P60pZdps2wD9p6t1q_XO-tFC6fJI9o5fU8FtXdKlnHRchHb3GG21Wo-sMAEX4TEp1klQysybun7l9rosRQgtdhNTiFKe_UisU7PhLVQ/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACOWdGCJtV1HCVQPGQvKA-ciBpeRoWxlWCIML3j5XZND5bJwD0ctEm8nE6QgrAs2llvcmSrk6-FkFD5s28Obea7Ta3VINuKYqWxuZBzOAbWYc1glloSNlyuDZxblL3-yekt-tCzUb0X6JQOoKIG4UrX-072MCTWT25ME6GTln0WgjBEALVti410osN2XAnTrtLa6nCTQBZxUMzYaN_aHeGMnvA46_vyaeBndSIZ8QjWR7VJ82kp3qJP4uH00xfDPZp2YQYulARAkI6OkTlyFVmm1vQGyyn7bbUNPnc9ImWcqQOpOVYqZGXnLvFRH9BRD1uL0pUq44nWRpkCQnzPPAUSIzZjeKWbOcW7-WwGldqHxxQEVn8b_ZiJscKCy-1TMBFkJlzIND2fd3-GoOOPhQKXl0j5t8hgxs3727VUO2t1NbA/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACN0SpPwPAeI5bJKk8I8v1Lw-5b_chx7ZkLQ8xDbs-l5LTXsWNPY7jPUSv9ROuXoEX08lIHaqBHufM7_Lpl_F-Wk47CdNeCzmIDydY-o0fKBBIbcsLBKakekAmy1DpTQPgfscNQNFmy4yAw6fHAxkuxzqQ_sQ5Zveb96jzNZjSMIZ4nucFyAr-X4N2QoPRtvr1dj7sQVrHCEkYNfxESuTPrAxB1-eNDtSvoh1q-DQPuQVLPKPfl6M3-3TbEFKxH3NsLowdztJPvVNOOYR2LM6M2vR2l316DOaDwurVBt_zebVP1lrkOdwdXMhzGJQCT_yJ71rlrxNfiu20Oj_WDTSIgyJ_-cm0bHNWymhimHUA9z3PLb_o0cECXqCqYgSdfHXfxmW3dSrHJ34T-KJiuMLNH7ldSOAZosFuuxdYuN7Pya8g/p.jpeg' }
+        { src: 'https://i.ibb.co/fX9LxT9/IMG-1216.jpg' },
+        { src: 'https://i.ibb.co/3cVvcVy/IMG-1075.jpg' },
+        { src: 'https://i.ibb.co/dpvZk7Q/IMG-1073.jpg' },
+        { src: 'https://i.ibb.co/yWhQ6wJ/IMG-1072.jpg' },
+        { src: 'https://i.ibb.co/9bSXL4r/IMG-1070.jpg' }
     ]
 
     const imagesFlowersMaker = [
-        { src: 'https://previews.dropbox.com/p/thumb/ACOMrQQkPAktsku5Zjjp6ybUr-geP6Dw1TJF0UjUZVpLl3tumi1E3cY82vjfLo2G9uNAkTRPpLJtHD7Hr9hc1nRR_TTmkR90aYKdmVsJ56Dlt0wGG1kOhWaJNqmGQubybY6OmDaZET_mhbkVtKquAQ2AfxX3Rr9nOc30vEtyVIrrMjkHSSEJZPlKSA5IjlhDDtNJC0vBiNeFcthSo6u1YvuaVDUpfkqMRyEmQYvrYwd8WM1CgyErftJxxT8Nsd-W8JNK83cYy_sBXCXjAlRgKpVhnekW6VR_TpKIe0orngynMNVBfzhgG9-YiYwiETtmJWaW_0Ftz0-tEHb3qcrWD7NIJMwW4G4l1w1WzdukFK0IrA/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACOm7RwjpZ2TvnOlu20doiOI6upKncvDaHlUeOddbp-zRFOGOCXoRpheatNaJ8ICRr0q0xlV7r7PRlOh42ysD_3lkQLxDE3LpPWC6PTQUO7mvRJbQejSq_Lmu5nLYR32536XKyYzOCnketwdq2hFHQANwWZ7zRLP5oahyC4M_BseNK-u-l2tqUUgzC-jQsbdpcfb3-iICz8HnO0GVuLFf2VfU9puiqdKMI82961Y_UhIFatTgV5h5csdH1ElGURoWS8SWHP9OFdior9MUJxG3I4TYpmVowXvUKBS4VBNHJty8QDVMSpqCpYEBKIul-LIgDsyDwwv1PkPkjdBlYELpwZtxE7dacvy5Rx40MWgMV4p_Q/p.jpeg' },
-        { src: 'https://previews.dropbox.com/p/thumb/ACMlvW9KFe-W5sUVmMIYUZUjLAfnuNbIW9qH2p3phmEk3jkUi5oMdOsoyXpxEAA0PoEo2FI6NKgcN0U92z7UHc6k9vs-TG3bc6jH0Ac6oCeeKJcA6rTftcvovHk4cg5P40VJiYfolDw9-8v6DhwuK_pgUc1Cv-gZXWBVnbWW2ToZa39ZfovmaphZ4fh9tIbKNyR4R-pVZke6FzsQb43iV7tmLshg_aCfOj1zXEZ9Ey39ec_PXycFBRpIm5Sh7tNyS8iP0W0L-a-e7gT1Ue4ocHT4oh2_hEvcpRKNYAmwlFgNPV9ywkSIbX_vqFFmFeV6RIYgN3wtbCCIGhZaaWNxKj0N7L3zC4QCbx6QS8_-aKEdpA/p.jpeg' },
+        { src: 'https://i.ibb.co/yg2CLty/IMG-20220524-120029.jpg' },
+        { src: 'https://i.ibb.co/LSv2965/IMG-20220524-115658.jpg' },
+        { src: 'https://i.ibb.co/fSDbdNt/IMG-20220524-115552.jpg' },
     ]
 
 
@@ -180,7 +180,7 @@ export const MoreProfession = () => {
             setDesc(desc_);
             setVideo(
                 <div>
-                    <div className='wrapper'>
+                    <div style={{marginTop:'-5%'}} className='wrapper'>
                         <h3 className="places__title section-title">Професія "Кухар"</h3>
                     </div>
                     <div className="staff__wrapper">
@@ -245,7 +245,7 @@ export const MoreProfession = () => {
             setDesc(desc_);
             setVideo(
                 <div>
-                    <div className='wrapper'>
+                    <div style={{marginTop:'-5%'}} className='wrapper'>
                         <h3 className="places__title section-title">Професія "Адміністратор. Агент з організації туризму"</h3>
                     </div>
                     <div className="staff__wrapper">
@@ -312,7 +312,7 @@ export const MoreProfession = () => {
             setDesc(desc_);
             setVideo(
                 <div>
-                    <div className='wrapper'>
+                    <div style={{marginTop:'-5%'}} className='wrapper'>
                         <h3 className="places__title section-title">Професія "Перукар (перукар-модельєр)"</h3>
                     </div>
                     <div className="staff__wrapper">

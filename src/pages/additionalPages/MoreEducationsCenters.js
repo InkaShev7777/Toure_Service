@@ -82,7 +82,7 @@ export const MoreEducationsCenters = () => {
                     </section>
                 </div>
             </section>
-            <div className='wrapper'>
+            <div style={{marginTop:'-5%'}} className='wrapper'>
                 <h3 className="places__title section-title">Інтерактивна карта НПЦ України</h3>
             </div>
             <div className="staff__wrapper">

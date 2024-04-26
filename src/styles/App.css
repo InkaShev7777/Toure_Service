@@ -207,7 +207,7 @@ table, tr, td,th {
 
 .intro {
   min-height: 100vh;
-  background: url('https://previews.dropbox.com/p/thumb/ACPgpC-AdeNdsH97rCUy2yi9IQktqwzpj4nx7jTlI-yQBiwu7JbQrjRxzPJjwnbeFyYShV-H5sNEtYtF84zYj6_vKiNkuXu89LHxIqKowwBpSDrDZLAf1Pia8h5P4nJLM7dFnT_NY9VeXH_3qGTxvQy1veiK-rPavaR8UsYfFTuxdQdEbn7Yb1WkrP5ME1eW7XAeU0i5YJ04328Fq7fCdrNqZdDblVo3JCBDAt0W-Qb3l-PRAaWofWuHVeZxKh0k_9F6bLerL1nahEMF3dS1Qy9iMJwLMZZZV1Gzd4RcGcoE5n6Zvk7hojPdx56ArmTN8KzPkLArAVMVAjvf6CcgGKZp8b8YsWpuhQnWTniUaINC4Q/p.jpeg') no-repeat center;
+  background: url('https://i.ibb.co/2j7J3kj/back2-photoaidcom-darken-1.jpg') no-repeat center;
   /* background: url('https://photos.google.com/share/AF1QipPUgxklcz2Sm556xaOYsIayufVCkhHE7u5bebHem6qobglS7UVmJ_q95WXE9bC22Q/photo/AF1QipMdfLrb1BTNJTA-30rlP3SSKnTtIy_MJVwV41Gx?key=dExsRmVaajkxSkxCQU5leHBFVWFfNlpUSV9rbjdn') no-repeat center; */
   /* background: url('https://www.aaiedutourz.com/assets/images/home/customize.jpg') no-repeat center; */
   background-size: cover;
@@ -510,7 +510,7 @@ table, tr, td,th {
 }
 
 li{
-  list-style-type:decimal;
+  /* list-style-type:decimal; */
 }
 
 .achivement__desc {
@@ -726,7 +726,7 @@ li{
 .footer__menu-social {
   display: flex;
   flex-wrap: wrap;
-  max-width: 160px;
+  max-width: 196px;
   gap: 5px;
 }
 
