@@ -25,7 +25,7 @@ export const MoreEducationsCenters = () => {
                                     <div className="news__card-pic">
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACMbh6nvTNPxB75zxU4rVU92XTfxpfSQF_HYZC658GjYDW5q0aUL88pHaBEf1UsreFFR58ZtewxOVuJqwUrbntGDTvIroTts4pmfL5bpGx2GZDDbDO7s0ZptYuEyNp4ikB0CbPeamapI_DEHjpSrLWwvxDhicLcUUOtTscH592G8jQQ4C53C9ys9mwB4srbt2zCvKAspfNQUgqsZSFbqzhZcUf9UMd0VV7EOGipetsZYVWpQjSoTeVNSulJByDnxpKCXl5YchzkVAQ7-L9BE1CPDIvsP3A-u9RkmP2hoAN3q3s5O_1pdDR1lEmZFN5SxDG7_H6Ue6sb4ZIVrKOlx_UbG/p.png"
+                                            src="https://i.ibb.co/8m9VgDh/1-1-e1519392696478.png"
                                             alt="img"
                                         />
                                     </div>
@@ -45,7 +45,7 @@ export const MoreEducationsCenters = () => {
                                     <div className="news__card-pic">
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACPaEN_9h59povZIKTK_mbxhQSxfDlZ-V0ZCLfldvHRrOrdr4XdXcu2B2ccVccmdt_BXzQg8nLOuA7ZsZhpohSO12exKoN1Hwkd9yLkne3UUtDY3YEYuG73GXGXYL2sQ3tXT_8JLp-LVVoMpoTbMF_Pxe_-GHBU0CncIvoRrMmj6F6HF7w7z3L4xGtUKsbLK8PEY9VzeLCc31s_rS-ivMibvbCVAhpmPWd_gfH88eRaW_DQRgqWixWARUh_Vh1piV6ILi30rV6xMJYvuB5xEmu_cLrucj81BsvjK-9ybxGXK2xAJgSfcTTqR6bl7jIQuI-kzHuJI5wSzeHUtVxd4eqB7/p.jpeg"
+                                            src="https://i.ibb.co/N7NCnNw/1-e1519375193548.jpg"
                                             alt="img"
                                         />
                                     </div>
@@ -57,7 +57,7 @@ export const MoreEducationsCenters = () => {
                                     <div className="news__card-pic">
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACNO-2xj8w7QMIzAiBbWwrUIuWpl49Oyb4jNTP_CJ1ZTS53TPhZpcndUuc2jNEp8sAHK6KM6CkLfRxNHCEtIb8biXNGBHFQ6d6G6C6xBgxJ5FO7B2A0f0rfufoKLdMlt1X1prs86u8G9GIPABrm2-b_FrxV06aj8yZdkt6doCq6QEga3cmyrBsL8bOAk952jt-kgtNPAEA_sqQm5w-wmpruLicyJjW8LjcrTupp244VWZCJ9GkntbOoK82Ev1wovO52CiIxm9NPe4dYwNOH9ojxSzrOQucz-p1LL1ERScVfCRQVxONqv0iZmUZH17nYEXpP_sBe2QlCexukdaTBJlS1U/p.png"
+                                            src="https://i.ibb.co/52z7wFN/1-e1519393447405.png"
                                             alt="img"
                                         />
                                     </div>
@@ -69,7 +69,7 @@ export const MoreEducationsCenters = () => {
                                     <div className="news__card-pic">
                                         <img
                                             className="news__card-thumb"
-                                            src="https://previews.dropbox.com/p/thumb/ACOCE_Ltmf_50ItwTEaSqa0x3DLs1A_RFLEM5lwchTzVL6uyzmAwJbeO4spPLm2WFKO_TF9dJGF2TSAagGjZRH6ofcHeJgc7tAfQbr2RF_MhX04pg42bVLfspT77Yg7W3GHDxknXs-0a8DeNfKbhe_wuZGuEQuPvLPQBr77Wk039AtAgG-TolH68KkrltYXBVuPjqRhmyREtYCUVNkKxX4Iq7f8T_KZriqW1AaMaOkMqqlzdIwITV3oXihTR02aIqhoW21rM-zNWOQUotv2DQA8jGZV-XmsDHjl72PtzdEPKbq65NIYkdwKPkrGUIXdCMJLXr_3A8kxMKimlPspJyTXU/p.png"
+                                            src="https://i.ibb.co/qyWRFQy/1-e1519389704226.png"
                                             alt="img"
                                         />
                                     </div>

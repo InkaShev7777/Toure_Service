@@ -12,24 +12,24 @@ export const MoreEducationsCenter = () => {
     const [images, setImages] = useState([]);
     const [video, setVideo] = useState();
 
-    const imagesEltoro = [{ src: 'https://previews.dropbox.com/p/thumb/ACMbh6nvTNPxB75zxU4rVU92XTfxpfSQF_HYZC658GjYDW5q0aUL88pHaBEf1UsreFFR58ZtewxOVuJqwUrbntGDTvIroTts4pmfL5bpGx2GZDDbDO7s0ZptYuEyNp4ikB0CbPeamapI_DEHjpSrLWwvxDhicLcUUOtTscH592G8jQQ4C53C9ys9mwB4srbt2zCvKAspfNQUgqsZSFbqzhZcUf9UMd0VV7EOGipetsZYVWpQjSoTeVNSulJByDnxpKCXl5YchzkVAQ7-L9BE1CPDIvsP3A-u9RkmP2hoAN3q3s5O_1pdDR1lEmZFN5SxDG7_H6Ue6sb4ZIVrKOlx_UbG/p.png' }];
-    const imagesStyleV = [{ src: 'https://previews.dropbox.com/p/thumb/ACPaEN_9h59povZIKTK_mbxhQSxfDlZ-V0ZCLfldvHRrOrdr4XdXcu2B2ccVccmdt_BXzQg8nLOuA7ZsZhpohSO12exKoN1Hwkd9yLkne3UUtDY3YEYuG73GXGXYL2sQ3tXT_8JLp-LVVoMpoTbMF_Pxe_-GHBU0CncIvoRrMmj6F6HF7w7z3L4xGtUKsbLK8PEY9VzeLCc31s_rS-ivMibvbCVAhpmPWd_gfH88eRaW_DQRgqWixWARUh_Vh1piV6ILi30rV6xMJYvuB5xEmu_cLrucj81BsvjK-9ybxGXK2xAJgSfcTTqR6bl7jIQuI-kzHuJI5wSzeHUtVxd4eqB7/p.jpeg' }];
+    const imagesEltoro = [{ src: 'https://i.ibb.co/8m9VgDh/1-1-e1519392696478.png' }];
+    const imagesStyleV = [{ src: 'https://i.ibb.co/N7NCnNw/1-e1519375193548.jpg' }];
     const imagesSoloha =
         [
-            { src: 'https://previews.dropbox.com/p/thumb/ACNi91x53Ig0J-jPl-FHkwuERYypGGkSBtVOBa29ayeeQyDV5skBvzliis13ShR9ozV0DRiP0yb98ZP-g4Ifx0PyyOdMeBT94mxTBnjh0XLgMzotPz_lXbeTGqJEPz2JfTw-dduyuy42o3COSUyINU4mGF7GMDojBmq1hMV8tdWC7PuXJHG3VY11OIloGO3knw2z5ddST2OE-T_qWOcatJHiA6ttyaJmpUTO-_XoTHBXbKGf4IxVB0hDaeDGri4WNCFAs5hCkF1bCFwUMDePr-H2t2ftQZkUtJxm5l0c8-AOgnxk_lijgO6V34SBrtC4Jx8hxKjY5ytxbxLXgEzqXbY0/p.jpeg' },
-            { src: 'https://previews.dropbox.com/p/thumb/ACN-HME7ZgkwkA_SVhS04o_wPDT_PZRsUzO7SZGYtSIaaECWzhLRKkrfG7bZvPjYKbl3BDA4OCZB6INeJGOTRDnLjHncpCO9AAz3SUtp9XrswEXn0IKX3hYJrLLSr75WjqTL0t4goF18u0My-E3tSn5T0QjlHnihZbR2uuBheHkHMJ5JIYxaYnMROV6TuZY2K_tu3CMy5s-4N1ZN1zdD09uuoWIIv4I79b9LCGeYqvkfR-FmA7-o2mHZukPnuclRLv38E72YYXakXSj_567MVZ1f2ZRYOW-nDMWZm80TII_6l7MQiiUBWqPnIeOKNtAkrXhBXn-fj9ZCNA5knnVI4M_N/p.jpeg' },
-            { src: 'https://previews.dropbox.com/p/thumb/ACOiJPjEc22IbH4-rycr2j4tKT3Om4vvsaF9N-0w7LUhAnGf3by59U4VymPmPanIO3fDkVSzVVMA3uuc8cJRQBiILRgzrkiKrRNI-xJfqGrqxzHUa8SuISYKTe4h-ub9rSnOlZNtg9EmypKO8aLhbn7HSP5jaXUvMQHyxJaXkFUe-QdJu7-4P53DqhAuXWUbf9HShXB4sVm26tagXzWiT_iRBx-NIOs7A2mzIJexaGZ7pmPOGboZ-RKRJRY7MrboiOzAhM3Ne_vLoW7Z4ZKNO4jGie6Ji2wax3XLjjgZo_Pgh6l_T3IZK4SErKRRCNFsfO_mwZhIkqElGKhM9fa_zwOO/p.jpeg' },
-            { src: 'https://previews.dropbox.com/p/thumb/ACPj5VUZA4xKPdwlt9eQYVmiGfNQ2YuE_1L4ak5GgtZp86S8MxcCElFg8StD3F4PFcye3j2w7BLFTYC1tC05JwGcT46lq-eiyY7DNMYjemdh6-9OUFxqCOJPq8nh1BYUkzIm6d_sV_dTzmrrb2k29O33o_Z8oIaJnyfHMsFleNeLJzrC7rdugfErG0W9GB_BCilCGxLsLRczTUMvXbxyqH1JNeOLEAe2piQjum0Jtn8XxQvTx27oxL6qgtkyzswOiwMiBYL2InP6DXgBpW9lFUzHJ9aZyiq6V4HenWpD7oAWpl4KuOx1N8NVQXEu--bgy3Q74Y3GXO7lswDMn5YS4k80/p.jpeg' },
-            { src: 'https://previews.dropbox.com/p/thumb/ACMHW5KNKr7DqZ_-UqJ98Xf_2AeQ2STJzz26vw97rSwdiwLkRCJ15_NasHU2-uDTn5Lh6MYgTh5QMVR1WUyn6QnLhxqVrHrddTV0_G0Yfhl5n8ej2_tXP2Hic8eJX1Y9FweBd7rXaeTiDEXMnzQD1OTl5OZn2pvK4ook_-hFgoWHQhy4DnXHic4B0nY8cHW2dyosppxzCbuEKSh6lTWYczowZpiNcugGT1LkoaBAQhDP86gH6UUPK-8rSK96mRPKGjH1X0cYXKHAlIsyRWxv7XHs1SAwc9PFrdmXFcOS9pfnu2fl4Ph9653ttqkfj2cIoN3XHKr7Z5eP05Wy-jLPDHn0/p.jpeg' },
-            { src: 'https://previews.dropbox.com/p/thumb/ACOuYMQW6k3YV_ZPLVSDlfdpPYpgcBqUBC4eZX4hPCe_lkhrvLtnk49CYOWzP0qkpkmsF4uBrnZRL4mz6reKTygPdWMgRKCAt4fouFTe-CeARNEmqx59FynGYBYncMlzTjA_tD7qX4svMxYEt5I_VjA_WxN-4O7WKl3zZbJgRYvac8OxWlAXNz-tvRuFi_CBgr48kiLYRJvETZCe4pdPudUh85A8yZNGMFAlBsTevEzw_nm44aPY-a7wj1WSp-MKCim2U7nVMUfJqXxQbg6NN1YIo3rZnwI9HkuNylkhfIr2n1J8hhO87bD5g35mLvQn7npnKbhEs7XyVso0F9qZ0lkD/p.jpeg' },
-            { src: 'https://previews.dropbox.com/p/thumb/ACP9LtatTVu6eOwNz-13tTI2xEb_rv2GsDUgyEvquO7YZMgloYOHrfRsZ4Lswn_aFa1dcY8wrFyVK9IlaXBdwbrZ6XA8Fle2wu7cIJVIP7GVRIFDpATq_sY1WDn-oFTyLsmbSuV15NdvRjQqsB1aicz0f7uk_WreK4W215TPD5EYy0yL1Kyt7bgedjstN1bdNbImt5QcfZuPiki0LfKkxIxQfnhqYXwlc-yWf9-e8zw-DC_-hfcON01RijNTHa_VtyjtPcctzKf6RRuEdcR2Gpk0BEEVPgVxYh6-BM6QfpA2Nns6NNR--gwOn67giFzDXJVbELBvHqxWNwgPukuuoQ46/p.jpeg' }
+            { src: 'https://i.ibb.co/Cv4frFk/1419501466-p1040593.jpg' },
+            { src: 'https://i.ibb.co/0C6qY7d/1419501392-1.jpg' },
+            { src: 'https://i.ibb.co/T2yVF8c/1419501359-p1040592.jpg' },
+            { src: 'https://i.ibb.co/dcGHgJ1/1419501354-p1040590.jpg' },
+            { src: 'https://i.ibb.co/gb0JGN9/1419501353-dsc-0620.jpg' },
+            { src: 'https://i.ibb.co/K6dXPV3/1419501353-dsc-0617.jpg' },
+            { src: 'https://i.ibb.co/6DGQYRc/1419501315-dsc-0623.jpg' }
         ]
     const imagesAcademy =
         [
-            { src: 'https://previews.dropbox.com/p/thumb/ACN4dGx0nVegadKUdRw-y7xaxvBRPTEWOEdDrDBp3AaN4FNYsPMjxZ9BiA6Wz50tqBnQMP40DkCwJxJvDQBnw0kFkJYxMBjpYK88nDDn4BJf88ZaJF8zTPmyfig0N1HB3k3rdAhUHn3gtjEoQ4Beii-rFU0oNrwxb0BU_-qX92ZcojrVCyptxke_oALfMKFAWyHXTkHCsn1S00hwZ_3zOB3glryCpuVdiReW5OvvpgSpwRnKF94OA3x8pVdlKY00cIgaCae4q-4YHMeURawTqXue1TCcH8H9aQVw_RI4IrKfga6PP31nKkyJlsnLmaJMTfYu2B3iZ1tfwUyy1RDP5KhY/p.png' },
-            { src: 'https://previews.dropbox.com/p/thumb/ACOn_sr8HQUSHJtiSwfAJNAVL6b7L6cHLoJQkUHHFJL2-Ah06hRnWfRLd_dRkH4ykUVxPdc-mf-PoCdCHCMK44f2fg4XbTTvttmR1q-lIWEMnaCsU6w10a7Dulu27dlZhdMjT_Au6W4QcNlH9RZPUU0dRvrqMt1K3U4FAz7P6nHX-vtOV1_KCZoL8Io_LogN3wtSyEPkewAQ5uqGKMgIOEN8osAc9BgvZzuJXobIG6XfQqA0P7FglZRnn2WhpHaA5wGRvlgvfW-XiaMnix0xhUzrLO1NDDXr-xJ96wtP-0p7ZnE_pViRP-EYJOotecGM8ujIxQG3EnXwzeyAN7NYOmvx/p.jpeg' }
+            { src: 'https://i.ibb.co/kgRmrgz/2.jpg' },
+            { src: 'https://i.ibb.co/52z7wFN/1-e1519393447405.png' }
         ];
-    const imagesGloab = [{src: 'https://previews.dropbox.com/p/thumb/ACOCE_Ltmf_50ItwTEaSqa0x3DLs1A_RFLEM5lwchTzVL6uyzmAwJbeO4spPLm2WFKO_TF9dJGF2TSAagGjZRH6ofcHeJgc7tAfQbr2RF_MhX04pg42bVLfspT77Yg7W3GHDxknXs-0a8DeNfKbhe_wuZGuEQuPvLPQBr77Wk039AtAgG-TolH68KkrltYXBVuPjqRhmyREtYCUVNkKxX4Iq7f8T_KZriqW1AaMaOkMqqlzdIwITV3oXihTR02aIqhoW21rM-zNWOQUotv2DQA8jGZV-XmsDHjl72PtzdEPKbq65NIYkdwKPkrGUIXdCMJLXr_3A8kxMKimlPspJyTXU/p.png'},{src:'https://previews.dropbox.com/p/thumb/ACNPMAyicDPTM1qA48SNVZauAusyVSlHtmwkCvEIYpboWpS8GZcP_SDgwhZ3ZCekW4owXK123wpNlOlzSUa0NJPXfrSP5taQf_rHM6NBDfXi6oLxg2Okit6_oWmhS3koT4RF8h87Bpj8fgQAKcTh_UKhMPh0ya7SPe-ghohOUnUXtc-gITRDd6jMIlWUdOQg65htXQWypCbkBdgeQX8kXZkcNiCReG7BGmhU963Q-1LgjUlXltWsKbGmtaBEwBBJJYW5TgWCry1BYlFWEb4NUzZ2KgUS4t5ApD6S-SNvJqpyPecLHmPqF9ZcXaKYTA-zqhsOUVwt8_s7THaoKdfKRYRo/p.png'}]
+    const imagesGloab = [{src: 'https://i.ibb.co/qyWRFQy/1-e1519389704226.png'}]
 
     useEffect(() => {
         if (id == 'eltoro') {

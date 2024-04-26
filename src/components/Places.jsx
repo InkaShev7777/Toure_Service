@@ -23,7 +23,6 @@ export const Places = () => {
               <figcaption className="plces__card-title">
                 Кабінет організації обслуговування в барах і ресторанах
               </figcaption>
-              <a href="#!" className="places__card-link"></a>
             </figure>
             <figure className="places__card places__card_size_lg">
               <img
@@ -34,7 +33,6 @@ export const Places = () => {
               <figcaption className="plces__card-title">
                 Навчально-виробнича майстерня з професії “Флорист”
               </figcaption>
-              <a href="#!" className="places__card-link"></a>
             </figure>
 
             <figure className="places__card places__card_size_sm">
@@ -46,7 +44,6 @@ export const Places = () => {
               <figcaption className="plces__card-title">
                 Навчально-виробнича майстерня з професії “Кухар”
               </figcaption>
-              <a href="#!" className="places__card-link"></a>
             </figure>
             <figure className="places__card places__card_size_sm">
               <img
@@ -57,7 +54,6 @@ export const Places = () => {
               <figcaption className="plces__card-title">
                 Кабінет іноземної мови
               </figcaption>
-              <a href="#!" className="places__card-link"></a>
             </figure>
             <figure className="places__card places__card_size_sm">
               <img
@@ -68,7 +64,6 @@ export const Places = () => {
               <figcaption className="plces__card-title">
                 Кабінет санітарії та гігієни
               </figcaption>
-              <a href="#!" className="places__card-link"></a>
             </figure>
           </div>
         </div>
