@@ -272,6 +272,8 @@ table, tr, td,th {
 .benefits__card {
   grid-column: span 1;
   margin-bottom: 112px;
+  display: flex;
+  flex-direction: column;
 }
 
 .benefits__card-pic {
@@ -309,6 +311,8 @@ table, tr, td,th {
   text-decoration: none;
   background: url(../resousces/arrow-right-long-solid\ \(1\).svg) no-repeat 95% center;
   transition: .2s all;
+  margin: auto 0 0 0;
+  max-width: 150px;
 }
 
 .benefits__card-more:hover {
