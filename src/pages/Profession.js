@@ -2,9 +2,15 @@ import React from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 export const Profession = () => {
 
     const navigate = useNavigate();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const handleOnClick = (id) => {
         navigate(`/profession/about/${id}`);
     }

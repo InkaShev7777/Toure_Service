@@ -2,10 +2,16 @@ import React from 'react'
 import { Header } from '../../components/Header'
 import { Footer } from '../../components/Footer';
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 
 
 export const MoreEducationsCenters = () => {
     const navigate = useNavigate();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const handleOnClick = (id) => {
         navigate(`/education-centers/education-center/${id}`);
     }

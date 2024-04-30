@@ -11,7 +11,7 @@ export const MoreCareerGuidance = () => {
     const images = [{ src: 'https://i.ibb.co/L92c93c/DiBeV-Xk.jpg' }];
 
     useEffect(() => {
-        console.log(id);
+        window.scrollTo(0, 0);
         if (id == '9') {
             setTitle('Прийом здобувачів освіти на базі 9 класу');
             const desc_ = <div>

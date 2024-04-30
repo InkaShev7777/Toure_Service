@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 
 export const MoreAchievment = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    
     return (
         <>
             <Header />
@@ -174,7 +179,7 @@ export const MoreAchievment = () => {
                     </section>
                 </div>
             </section>
-            <div style={{marginTop:'-5%'}} className='wrapper'>
+            <div style={{ marginTop: '-5%' }} className='wrapper'>
                 <h3 className="places__title section-title">Земля – наш спільний дім</h3>
                 <p className="news__card-desc">За ініціативи НМЦ ПТО у Дніпропетровській області проводився віртуальний конкурс колективів екологічної просвіти «Земля-наш спільний дім» серед  здобувачів освіти закладів професійної (професійно-технічної) освіти області.
                     Завдяки креативності, творчості, прагненню зберегти природу рідного краю, активній життєвій позиції, викладачка біології та екології ДПТНЗ “ДНІПРОВСЬКИЙ ЦЕНТР ПТОТС ” Іванченко І.Ю. разом з колективом “Небайдужі” стали переможцями конкурсу!!!!
@@ -186,7 +191,7 @@ export const MoreAchievment = () => {
                     <iframe className='staff__element' src="https://www.youtube.com/embed/piSZY3bZb4Y?si=8XBAJo9r0v23KPuH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </>
     );
 }

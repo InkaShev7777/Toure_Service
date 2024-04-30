@@ -32,6 +32,7 @@ export const MoreEducationsCenter = () => {
     const imagesGloab = [{src: 'https://i.ibb.co/qyWRFQy/1-e1519389704226.png'}]
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         if (id == 'eltoro') {
             setTitle('Навчально-практичний Центр “Ельторо”');
             setImages(imagesEltoro);

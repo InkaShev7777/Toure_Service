@@ -2,8 +2,13 @@ import React from 'react'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { Carousel } from 'react-responsive-carousel'
+import { useEffect } from 'react'
 
 export const EducationalActivities = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const images = [
         { src: 'https://i.ibb.co/0Xz8WPs/2024-04-25-15-49-48.png' },

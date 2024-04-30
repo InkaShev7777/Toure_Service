@@ -49,9 +49,6 @@ export const Header = () => {
   const MoveToCategory = (idCategory, offsetForCategory) => {
     setTimeout(() => {
       const element = document.getElementById(idCategory);
-      if (element != null) {
-
-      }
 
       const offset = offsetForCategory;
       const bodyRect = document.body.getBoundingClientRect().top;
@@ -60,7 +57,6 @@ export const Header = () => {
       const offsetPosition = elementPosition - offset;
 
       window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
-
 
       setIsActiveBurger(false);
     }, 910);

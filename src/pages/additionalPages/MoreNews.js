@@ -93,6 +93,7 @@ export const MoreNews = () => {
     ]
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         if (id == 'musei') {
             setImages(imagesMuseum);
             setTitle('Наша подорож до музею історії Дніпра')

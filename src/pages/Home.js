@@ -17,8 +17,6 @@ function App() {
     setTimeout(() => {
       setIsFirstVisit(false)
       localStorage.setItem('isFirstVisit', false);
-      // localStorage.setItem('isFirstVisit', true);
-      // console.log('Before: ' + isFirstVisit);
     }, 900);
   }, []);
 

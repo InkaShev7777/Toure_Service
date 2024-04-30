@@ -2,8 +2,13 @@ import React from 'react'
 import { Header } from '../../components/Header';
 import { Carousel } from 'react-responsive-carousel';
 import { Footer } from '../../components/Footer';
+import { useEffect } from 'react';
 
 export const MorePlaces = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const images = [
         {src: 'https://i.ibb.co/yFyx7gh/IMG-3562.jpg'},
